@@ -1,0 +1,13 @@
+.our-clients {
+	background-image: url('../images/bg-our-clients.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 545px;
+}
+
+.our-clients p, .our-clients cite {
+	margin-top: 60px;
+}
+.our-clients blockquote {
+	margin-bottom: 60px;
+}
