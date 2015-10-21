@@ -3,30 +3,6 @@ body {
 	/*padding-top: 70px;*/
 }
 
-/* mixins */
-
-.marginbottom40 {
-	margin-bottom: 40px;
-}
-
-.marginbottom25 {
-	margin-bottom: 25px;
-}
-
-.marginbottom50 {
-	margin-bottom: 50px;
-}
-.marginbottom60 {
-	margin-bottom: 60px;
-}
-.marginbottom80 {
-	margin-bottom: 80px;
-}
-.margintopbottom40 {
-	margin: 40px 0;
-}
-
-
 img {
 	max-width: 100%;
 	height: auto;
@@ -37,10 +13,6 @@ img {
     margin-left: 15px;
     margin-bottom: 8px;
     float: left;
-}
-
-.margin-center {
-	margin: 0 auto;
 }
 
 .main-hero {
@@ -269,20 +241,21 @@ img {
 .dating-survey .button-check .btn {
 	font-family: 'raleway';
 	color: #333333;
+	position: relative;
 }
 
-.dating-survey .button-check .btn.active:before {
-	content: '';
-	background-image: url('../images/icon-check.png');
-	background-repeat: no-repeat;
-	background-position: top left;
-	height: 25px;
-	width: 22px;
+.dating-survey .button-check .btn.active .icon-check {
+	position: absolute;
+	top: 14px;
+	left: 20px;
 	display: inline-block;
 	vertical-align: middle;
-	/*position: absolute;
-	top: 30%;
-	left: 10%;*/
+	background-image: url('../images/icon-check.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 25px;
+	width: 22px;
+	line-height: 1;
 }
 
 .dating-survey .button-check .btn span {
@@ -373,55 +346,6 @@ h2 b {
 	padding: 6px;
 }
 
-/* Colors */
-
-.orange {
-	color: #f68d4f;
-}
-
-.blue {
-	color: #237ec2;
-}
-
-.darkpink {
-	color: #ca3158;
-}	
-
-.lightgray {
-	color: #f2f2f2;
-}
-
-.darkgray {
-	color: #e8e8e8;
-}
-
-/* Background colors */
-
-.bg-darkgray {
-	background-color: #e8e8e8;
-}
-
-.bg-black {
-	background-color: #000;
-}
-.bg-blue {
-	background-color: #237ec2;
-}
-.bg-darkpink {
-	background-color: #ca3158;
-}
-.bg-gradient {
-	background: #56ba62; /* Old browsers */
-	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU2YmE2MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyYTdjYzEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(left,  #56ba62 0%, #2a7cc1 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#56ba62), color-stop(100%,#2a7cc1)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left,  #56ba62 0%,#2a7cc1 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left,  #56ba62 0%,#2a7cc1 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left,  #56ba62 0%,#2a7cc1 100%); /* IE10+ */
-	background: linear-gradient(to right,  #56ba62 0%,#2a7cc1 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56ba62', endColorstr='#2a7cc1',GradientType=1 ); /* IE6-8 */
-}
 
 .darkpink-banner {
 	font-family: 'ralewaymedium';
@@ -467,18 +391,11 @@ cite {
 	display: block;
 }
 
-
 .title {
 	color: #237ec2;
 	font-family: 'ralewaylight';
 	font-size: 20px;
 }
-
-.no-margin-left {
-	margin-left: 0;
-}
-
-
 
 .give-us-a-call {
 	background-color: #f68d4f; 
@@ -502,42 +419,12 @@ cite {
 	margin: 10px 0;
 }
 
-/* Navbar */
-.navbar {
-	margin-bottom: 0;
-	background-color: #f5f5f2;
-}
-
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
-
-.navbar .navbar-nav li {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-.navbar .navbar-collapse {
-    text-align: center;
-}
-
-.navbar-toggle {
-	margin-top: 12px;
-}
-
 @media (max-width: 767px) {
 	.give-us-a-call {
 		width: 100%;
 		position: fixed;
 		z-index: 100;
 		top: 0;
-	}
-	.navbar {
-		width: 100%;
-		position: fixed;
-		z-index: 100;
-		top: 30px;
 	}
 	.main-hero {
 		padding-top: 100px;
@@ -709,9 +596,9 @@ cite {
 	margin-bottom: 45px;
 }
 
- .footer-col .footer-logo {
+.footer-col .footer-logo {
  	margin-bottom: 25px;
- }
+}
 .footer-col:nth-of-type(2) p {
 	font-family: 'ralewaymedium';
 	font-size: 16px;
@@ -730,4 +617,24 @@ cite {
 	text-transform: none;
 	line-height: 32px;
 	margin-bottom: 25px;
+}
+
+/* PAGES -- to be separated out */
+
+.in-the-news-hero {
+	background-image: url('../images/bg-in-the-news.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	min-height: 650px;
+	color: #333;
+}
+
+.our-clients-hero {
+	background-image: url('../images/bg-our-clients.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	min-height: 671px;
+	color: #333;
 }

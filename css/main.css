@@ -1,4 +1,7 @@
 @import 'fonts.css';
+@import 'forms.css';
+@import 'mixins.css';
+@import 'nav.css';
 @import 'global.css';
 @import 'our-clients.css';
 
