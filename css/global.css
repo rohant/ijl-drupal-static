@@ -3,6 +3,12 @@ body {
 	/*padding-top: 70px;*/
 }
 
+/*Resets due to drupal*/
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
 /* mixins */
 
 .marginbottom40 {
