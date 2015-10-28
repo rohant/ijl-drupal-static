@@ -12,7 +12,8 @@ img {
     margin-top: 8px;
     margin-left: 15px;
     margin-bottom: 8px;
-    float: left;
+    position: absolute;
+    left: 20px;
 }
 
 .main-hero {
@@ -191,9 +192,9 @@ img {
 	margin-top: 40px;
 }
 
-/* In The News */
+/* In The News Bar */
 
-.in-the-news h2 {
+.in-the-news-blocks h2 {
 	margin-top: 80px;
 }
 
@@ -201,6 +202,7 @@ img {
 .news-read {
 	padding-top: 40px;
 	padding-bottom: 40px;
+	font-size: 16px;
 }
 
 @media (max-width: 480px) {
@@ -620,14 +622,11 @@ cite {
 
 /* PAGES -- to be separated out */
 
-.in-the-news-hero {
-	background-image: url('../images/bg-in-the-news.jpg');
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: cover;
-	min-height: 650px;
-	color: #333;
-}
+
+/* In the New Page */
+
+
+
 
 .our-clients-hero {
 	background-image: url('../images/bg-our-clients.jpg');
