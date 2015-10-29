@@ -1,4 +1,9 @@
 @import 'fonts.css';
+@import 'forms.css';
+@import 'mixins.css';
+@import 'nav.css';
 @import 'global.css';
+@import 'home.css';
+@import 'in-the-news.css';
 @import 'our-clients.css';
 
