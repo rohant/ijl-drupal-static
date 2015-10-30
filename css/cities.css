@@ -1,0 +1,70 @@
+.cities-hero {
+	background-image: url('../images/bg-cities.jpg');
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	background-size: cover;
+	min-height: 476px;
+	color: #333;
+}
+
+
+.cities-hero hr {
+	margin-left: 0;
+}
+
+.cities-hero h1 {
+	font-size: 72px;
+	font-family: 'ralewaythin';
+}
+
+.cities-hero p {
+	font-family: 'ralewaythin';
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.cities .find-us {
+	background-image: url('../images/bg-find-us.jpg');
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	min-height: 755px;
+	color: #333;
+}
+.cities .find-us h2 {
+	text-align: center;
+	font-family: 'ralewaylight';
+	margin-top: 40px;
+}
+
+.cities .find-us h2 b {
+	font-family: 'ralewaymedium';
+}
+
+.cities .find-us h3 {
+	font-size: 40px;
+	font-family: 'ralewaymedium';
+	margin-top: 140px;
+}
+
+.cities .find-us p:nth-of-type(1) {
+	font-family: 'raleway';
+	font-size: 22px;
+	line-height: 34px;
+	margin-top: 70px;
+}
+
+.cities .contact-us h3 {
+	margin-top: 50px;
+}
+.cities .contact-us {
+	font-size: 24px;
+}
+
+@media (max-width: 480px) {
+	.cities-hero {
+		background-position: 30% 100%;
+	}
+	.cities .find-us h3, .cities .find-us p:nth-of-type(1) {
+		margin-top: 0;
+	}
+}

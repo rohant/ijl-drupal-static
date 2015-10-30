@@ -328,7 +328,10 @@ h2 b {
 }
 
 /* Horizontal Rules */
-
+.hrblack {
+	border: 3px solid #000;
+	width: 15%;
+}
 .hrblue {
 	border: 3px solid #237ec2;
 	width: 15%;
@@ -621,12 +624,6 @@ cite {
 }
 
 /* PAGES -- to be separated out */
-
-
-/* In the New Page */
-
-
-
 
 .our-clients-hero {
 	background-image: url('../images/bg-our-clients.jpg');
