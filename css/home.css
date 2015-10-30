@@ -1,3 +1,17 @@
 .home .mobile-logo {
 	display: none;
 }
+
+.hoe-our-clients {
+	background-image: url('../images/bg-home-our-clients.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 545px;
+}
+
+.home-our-clients p, .home-our-clients cite {
+	margin-top: 60px;
+}
+.home-our-clients blockquote {
+	margin-bottom: 60px;
+}

@@ -294,6 +294,9 @@ img {
 	text-align: center;
 	margin-top: 70px;
 }
+.contact-us hr {
+	width: 7%;
+}
 
 .contact-us h3 span {
 	font-family: "Helvetica Neue", Arial;
@@ -308,6 +311,12 @@ img {
  text-align: left;
  width: 100%;
 }
+@media (max-width: 768px) {
+	.contact-form .dropdown:nth-of-type(1) {
+		margin-bottom: 15px; /* adds spacing below city dropdown */
+	}
+}
+
 .contact-form .dropdown .btn {
 	color: #9f9f9f;
 	text-align: left;
@@ -632,4 +641,77 @@ cite {
 	background-size: cover;
 	min-height: 671px;
 	color: #333;
+}
+
+/* modal */
+
+.our-clients-modal .modal-header {
+	border-bottom: 0;
+}
+.our-clients-modal .modal-header .close {
+	color: #ca3158;
+	font-family: 'raleway';
+	font-size: 50px;
+	margin-top: -20px;
+	font-weight: normal;
+}
+.our-clients-modal h4 {
+	color: #ca3158;
+	font-size: 32px;
+	font-family: 'ralewaylight';
+	margin-top: 40px;
+}
+
+.our-clients-modal h4 b {
+	font-family: 'ralewaymedium';
+}
+
+.our-clients-modal h5 {
+	font-size: 18px;
+	color: #ca3158;
+	margin-top: 30px;
+}
+
+.our-clients-modal ul {
+	font-size: 18px;
+	font-family: 'ralewaylight';
+	padding-left: 20px;
+}
+
+.our-clients-modal ul b {
+	color: #000;
+}
+
+.our-clients-modal ul i {
+	color: #333;
+}
+
+.our-clients-modal ul b {
+	font-family: 'ralewaymedium';
+}
+
+.our-clients-modal .modal-pic1 {
+	position: absolute;
+	z-index: 400;
+	top: 30px;
+	left: -90px;
+}
+.our-clients-modal .modal-pic2 {
+	position: absolute;
+	z-index: 500;
+	top: 160px;
+	left: 15px;
+}
+	
+.our-clients-modal .modal-pic3 {
+	position: absolute;
+	z-index: 300;
+	top: 370px;
+	left: -110px;
+}
+
+@media (min-width: 768px) {
+	.modal-dialog {
+		width: 675px;
+	}
 }
