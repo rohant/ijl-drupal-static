@@ -38,12 +38,12 @@
 .in-the-news .news-img {
 	max-width: 255px;
 }
-.featured-article, .featured-logo {
+.featured-article, .featured-logo img {
 	padding: 50px 0;
 }
 @media (max-width: 480px) {
 
-	.featured-article, .featured-logo {
+	.featured-article, .featured-logo img {
 		padding: 30px 0;
 	}
 	.featured-article h2 {

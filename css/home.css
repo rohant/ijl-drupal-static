@@ -2,11 +2,15 @@
 	display: none;
 }
 
-.hoe-our-clients {
+.home-our-clients {
 	background-image: url('../images/bg-home-our-clients.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 	min-height: 545px;
+}
+
+.home-our-clients img {
+	position: absolute;
 }
 
 .home-our-clients p, .home-our-clients cite {
