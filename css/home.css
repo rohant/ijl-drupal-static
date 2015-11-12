@@ -19,3 +19,48 @@
 .home-our-clients blockquote {
 	margin-bottom: 60px;
 }
+
+.home .our-process-container {
+	text-align: center;
+}
+
+.home .our-process-container h4 {
+	text-transform: uppercase;
+}
+
+.home .our-process-container h3 {
+	font-size: 50px;
+	color: #ca3158;
+}
+
+.home .our-process-container h4 {
+	font-size: 41px;
+	font-family: 'ralewaymedium';
+	text-transform: uppercase;
+	margin-top: 160px;
+	margin-bottom: 0;
+}
+
+.home .our-process-container h3 {
+	font-size: 82px;
+	font-family: 'ralewaylight';
+	color: #ca3158;
+	margin-top: 0;
+}
+
+.home .our-process-container:before {
+	content: '';
+	border-left: 1px solid #555;
+	width: 10px;
+	height: 420px;
+	color: #555;
+	position: absolute;
+	left: 0;
+	top: 16%;
+}
+#our-process-carousel .carousel-inner {
+	background-image: url('../images/bg-generic-badge.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 623px;
+}

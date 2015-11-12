@@ -1,0 +1,164 @@
+.our-process-hero {
+	background-image: url('../images/bg-our-process.jpg');
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: cover;
+	min-height: 477px;
+	color: #333;
+	text-align: left;
+}
+
+.our-process-hero h1 {
+	font-size: 60px;
+	font-family: 'ralewaythin';
+	margin-top: 80px;
+}
+
+.our-process-hero p {
+	font-family: 'ralewaysemibold';
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.our-process .contact-us {
+	margin-top: 10px;
+}
+
+.our-process-hero hr {
+	width: 30%;
+	margin-left: 0;
+}
+
+.step-1 h2, .step-2 h2, .step-3 h2, .step-4 h2, .step-5 h2 {
+	font-family: 'ralewaymedium';
+	font-size: 38px;
+	line-height: 50px;
+	text-align: left;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+.step-1 h2:before, .step-2 h2:before, .step-3 h2:before, .step-4 h2:before, .step-5 h2:before {
+	border-radius: 50%;
+	border: 2px solid #237ec2;
+	width: 50px;
+	height: 38px;
+	line-height: 50px;
+	color: #237ec2;
+	padding: 10px;
+	margin-right: 15px;
+}
+
+.step-1 h2:before {
+	content: '01';
+}
+
+.step-2 h2:before {
+	content: '02';
+}
+
+.step-3 h2:before {
+	content: '03';
+}
+
+.step-4 h2:before {
+	content: '04';
+}
+
+.step-5 h2:before {
+	content: '05';
+}
+
+.step-1 p, .step-2 p, .step-3 p, .step-4 p, .step-5 p {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.step-1 {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.step-2, .step-4 {
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	background-color: #f4f4f3;
+	position: relative;
+	min-height: 395px;
+}
+
+.step-2 {
+	background-image: url('../images/bg-step-2.jpg');
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+}
+
+
+
+.step-3 {
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.step-4 {
+	background-image: url('../images/bg-step-4.jpg');
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.step-5 {
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+.step-5 a {
+	color: #f68d4f;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.step-4 .notch, .step-2 .notch {
+	position: absolute;
+	top: 0;
+	left: 10%;
+}
+
+.step-2 .notch-wrap, .step-4 .notch-wrap {
+	left: 0;
+}
+
+.step-2 .notch-down-trans:before {
+  right: 76%;
+  width: 100%;
+}
+.step-2 .notch-down-trans:after {
+  left: 24%;
+  width: 100%;
+}
+
+.step-4 .notch-down-trans:before {
+  right: 76%;
+  width: 100%;
+}
+
+.step-4 .notch-down-trans:after {
+  left: 24%;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+	.step-2, .step-4 {
+		padding-top: 0;
+		padding-bottom: 0;
+		background-position: 100% 50%;
+	}
+	.step-2 .notch-wrap, .step-4 .notch-wrap {
+		bottom: -20px;
+	}
+	.step-2 h2, .step-4 h2 {
+		margin-top: 50px;
+		margin-bottom: 10px;
+	}
+}
