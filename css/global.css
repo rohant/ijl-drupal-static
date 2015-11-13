@@ -330,6 +330,10 @@ h2 b {
 	border: 3px solid #000;
 	width: 15%;
 }
+.hrwhite {
+	border: 3px solid #fff;
+	width: 15%;
+}
 .hrblue {
 	border: 3px solid #237ec2;
 	width: 15%;
