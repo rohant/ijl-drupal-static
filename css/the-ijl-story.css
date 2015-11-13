@@ -1,0 +1,136 @@
+.the-ijl-story-hero {
+	background-image: url('../images/bg-the-ijl-story.jpg');
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: cover;
+	min-height: 685px;
+	color: #333;
+	margin-bottom: 60px;
+}
+
+
+.the-ijl-story-hero hr {
+	margin-left: 0;
+}
+
+.the-ijl-story-hero h1 {
+	font-size: 72px;
+	font-family: 'ralewaythin';
+	margin-top: 80px;
+}
+
+.the-ijl-story-hero h1 b {
+	font-family: 'ralewaymedium';
+}
+
+.the-ijl-story-hero p {
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.the-ijl-story .we-believe {
+	margin-bottom: 80px;
+}
+.the-ijl-story .we-believe  p {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.the-ijl-story .we-believe .photo,
+.the-ijl-story .we-believe .gray-box {
+	margin: 0 0 30px 0;
+	min-height: 340px;
+}
+
+.the-ijl-story .we-believe .gray-box {
+	background-color: #979797;
+	color: #fff;
+	text-align: center;
+	padding: 40px 10px;
+	max-width: 344px;
+}
+
+.the-ijl-story .we-believe .gray-box h3 {
+	margin-top: 0;
+	font-size: 42px;
+	line-height: 38px;
+	font-family: 'ralewaylight';
+}
+.the-ijl-story .we-believe .gray-box h3 b {
+	display: block;
+	font-family: 'ralewaymedium';
+}
+
+.the-ijl-story .we-believe .gray-box p {
+	font-size: 16px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin-bottom: 0;
+}
+
+.the-ijl-story .by-the-numbers {
+	background-color: #237ec2;
+	color: #fff;
+	text-align: center;
+}
+
+.the-ijl-story .by-the-numbers h2 {
+	font-size: 62px;
+	margin: 40px 0;
+}
+
+.the-ijl-story .by-the-numbers .col {
+	border: 1px solid #fff;
+	padding: 40px 0;
+	margin: 0 0 60px 0;
+}
+
+.the-ijl-story .by-the-numbers h3 b{
+	display: block;
+	font-family: 'ralewaymedium';
+	font-size: 40px;
+}
+
+.the-ijl-story .by-the-numbers h3 {
+	font-size: 16px;
+	line-height: 36px;
+	font-family: 'ralewaythin';
+	text-transform: uppercase;
+}
+
+.the-ijl-story .contact-us {
+	margin-top: 10px;
+}
+
+.the-ijl-story .contact-us p {
+	margin-bottom: 40px;
+}
+
+
+.the-ijl-story .contact-us h2 {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+	.the-ijl-story .by-the-numbers .col {
+		padding: 10px 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.the-ijl-story .we-believe .photo,
+	.the-ijl-story .we-believe .gray-box {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+}
+
+@media (max-width: 992px) {
+
+	
+	.the-ijl-story .we-believe .gray-box p {
+		font-size: 12px;
+	}
+	.the-ijl-story .we-believe .gray-box h3 {
+		font-size: 32px;
+	}
+}
