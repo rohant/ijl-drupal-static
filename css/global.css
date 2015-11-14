@@ -1,3 +1,4 @@
+
 body {
 	font-family: 'raleway';
 	/*padding-top: 70px;*/
@@ -7,6 +8,15 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+hr {
+	height: 0;
+}
+
+.form-item {
+	margin: 0;
+}
+
 
 .mobile-logo {
     margin-top: 8px;
