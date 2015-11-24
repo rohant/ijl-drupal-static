@@ -1,12 +1,13 @@
 .our-clients-hero {
 	background-image: url('../images/bg-our-clients.jpg');
 	background-repeat: no-repeat;
-	background-position: 0% 50%;
-	background-size: cover;
-	min-height: 477px;
+	/*background-position: 0% 50%;*/
+	/*background-size: cover;*/
+	background-position: 50% 50%;
+	/*min-height: 477px;*/
+	min-height: 671px;
 	color: #333;
 }
-
 
 .our-clients-hero hr {
 	margin-left: 0;
@@ -47,4 +48,13 @@
 
 .love-a-good-story .col-5 {
 	padding-top: 45px;
+}
+
+@media (max-width: 480px) {
+	.our-clients .love-a-good-story h2 {
+		margin-top: 40px;
+	}
+	.our-clients-hero {
+		min-height: 1px;
+	}
 }

@@ -30,13 +30,15 @@ hr {
 	background-image: url('../images/bg-convertible.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-size: cover;
+	/*background-size: cover;*/
 	min-height: 774px;
 	color: #fff;
 }
 
 .main-hero .logo img {
 	margin-top: 40px;
+	max-width: 100%;
+	min-width: 286px;
 }
 
 .main-hero .btn {
@@ -210,6 +212,7 @@ hr {
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
+
 }
 .in-the-news .read-more {
 	color: #237ec2;
@@ -447,15 +450,6 @@ cite {
 	}
 }
 
-/* The IJL Difference */
-
-.ijl-difference h2 {
-	margin-top: 100px;
-}
-
-.ijl-difference p {
-	font-size: 18px;
-}
 
 /* Carousels */
 
@@ -535,7 +529,8 @@ cite {
 .footer {
 	color: #fff;
 	text-align: center;
-	padding: 50px 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .footer .select-your-city {
 	border-radius: 0;
@@ -574,6 +569,11 @@ cite {
 	border-right: 2px solid #fff;
 	min-height: 222px;
 }
+@media (max-width: 767px) {
+	.footer-col {
+		border-right: 0;
+	}
+}
 .footer-col h5 {
 	margin-bottom: 45px;
 }
@@ -603,14 +603,7 @@ cite {
 
 /* PAGES -- to be separated out */
 
-.our-clients-hero {
-	background-image: url('../images/bg-our-clients.jpg');
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: cover;
-	min-height: 671px;
-	color: #333;
-}
+
 
 /* modal */
 
@@ -683,4 +676,20 @@ cite {
 	.modal-dialog {
 		width: 675px;
 	}
+}
+
+@media (max-width: 480px) {
+	h2 {
+		margin-top: 0;
+	}
+
+	.contact-form {
+		margin-bottom: 40px;
+	}
+    .footer-col:nth-of-type(1) {
+	    min-height: 180px;
+    }
+    .footer {
+	    padding-bottom: 200px;
+    }
 }
