@@ -1,7 +1,6 @@
 
 body {
 	font-family: 'raleway';
-	/*padding-top: 70px;*/
 }
 
 img {
@@ -16,7 +15,6 @@ hr {
 .form-item {
 	margin: 0;
 }
-
 
 .mobile-logo {
     margin-top: 8px;
@@ -74,15 +72,12 @@ hr {
 	font-weight: bold;
 }
 
-
 .signoff {
 	font-family: 'freshscript';
 	font-size: 70px;
 	text-align: center;
 	color: #237ec2;
 }
-
-
 
 .our-story-box {
 	text-align: center;
@@ -672,17 +667,36 @@ cite {
 	left: -110px;
 }
 
+@media (max-width: 1104px) {
+	#navbar {
+		margin-left: 10%;
+	}
+}
+
+@media (max-width: 990px) {
+	#navbar {
+		margin-left: 21%;
+	}
+	.navbar .navbar-nav li {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+    .home #navbar {
+	    margin-left:  auto;
+    }
+}
+
 @media (min-width: 768px) {
 	.modal-dialog {
 		width: 675px;
 	}
+
 }
 
 @media (max-width: 480px) {
 	h2 {
 		margin-top: 0;
 	}
-
 	.contact-form {
 		margin-bottom: 40px;
 	}
