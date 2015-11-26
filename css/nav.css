@@ -9,9 +9,11 @@
     float: none;
 }
 
-.navbar .navbar-nav li {
-	padding-left: 20px;
-	padding-right: 20px;
+@media (min-width: 1200px) {
+	.navbar .navbar-nav li {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 .navbar .navbar-collapse {
@@ -48,6 +50,11 @@
 	padding-top: 50px;
 }
 
+.home .get-started-badge {
+	display: none;
+	visibility: hidden;
+}
+
 @media (max-width: 767px) {
 	.navbar {
 		width: 100%;
@@ -65,4 +72,12 @@
 		top: 30px;
 	}
 
+}
+
+.home .ijl-menu {
+	width: 100%;
+	margin-left: 0;
+	margin-right: auto;
+	padding-right: 0;
+	padding-left: 0;
 }
