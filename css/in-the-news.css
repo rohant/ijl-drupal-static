@@ -1,8 +1,9 @@
 .in-the-news-hero {
 	background-image: url('../images/bg-in-the-news.jpg');
 	background-repeat: no-repeat;
-	background-position: 0% 100%;
-	background-size: cover;
+	/*background-position: 0% 100%;*/
+	/*background-size: cover;*/
+	background-position: 50% 50%;
 	min-height: 477px;
 	color: #333;
 }
@@ -75,4 +76,20 @@
 .in-the-news .contact-us h2 {
 	font-size: 72px;
 	font-family: 'raleway';
+}
+
+@media (max-width: 768px) {
+	.featured-logo-container {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 480px) {
+	.in-the-news-hero {
+		min-height: 1px;
+		padding-bottom: 70px;
+	}
+    .in-the-news .contact-us {
+	    margin-top: 20px;
+    }
 }

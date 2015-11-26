@@ -1,8 +1,9 @@
 .our-process-hero {
 	background-image: url('../images/bg-our-process.jpg');
 	background-repeat: no-repeat;
-	background-position: 0% 50%;
-	background-size: cover;
+	/*background-position: 0% 50%;*/
+	/*background-size: cover;*/
+	background-position: 100% 50%;
 	min-height: 477px;
 	color: #333;
 	text-align: left;
@@ -149,6 +150,10 @@
 }
 
 @media (max-width: 480px) {
+	.step-1, .step-2, .step-3, .step-4 {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
 	.step-2, .step-4 {
 		padding-top: 0;
 		padding-bottom: 0;
@@ -157,8 +162,10 @@
 	.step-2 .notch-wrap, .step-4 .notch-wrap {
 		bottom: -20px;
 	}
+
 	.step-2 h2, .step-4 h2 {
 		margin-top: 50px;
 		margin-bottom: 10px;
 	}
+
 }
