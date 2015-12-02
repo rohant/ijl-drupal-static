@@ -64,7 +64,7 @@ input.webform-submit{
 	font-family: 'ralewaymedium';
 }
 .main-hero .get-started {
-	margin-top: 70px;
+	margin-top: 40px;
 }
 .main-hero .get-started p {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -401,7 +401,6 @@ h2 b {
 
 button.btn-primary{
 	font-size: 18px;
-	line-height: 1.8;
 }
 
 /* Quotes and Testimonials */
@@ -413,7 +412,7 @@ blockquote {
 }
 
 cite {
-	color: #237ec2;
+	color: #ffffff;
 	font-size: 40px;
 	font-family: "freshscript";
 	font-style: normal;
@@ -421,7 +420,7 @@ cite {
 }
 
 .title {
-	color: #237ec2;
+	color: #ffffff;
 	font-family: 'ralewaylight';
 	font-size: 20px;
 }
@@ -555,7 +554,7 @@ cite {
 	font-family: 'raleway';
 	font-size: 26px;
 	font-weight: normal;
-	line-height: 23px;
+	line-height: 35px;
 	text-transform: uppercase;
 }
 .footer h5 b {
@@ -721,4 +720,10 @@ cite {
     .footer {
 	    padding-bottom: 200px;
     }
+}
+
+/* Other Generic Styles */
+.left-black-text p {
+	color: #000;
+	text-align: left;
 }

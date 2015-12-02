@@ -17,8 +17,8 @@
 }
 
 .blog-hero p {
-	font-family: 'ralewaysemibold';
-	font-size: 22px;
+	font-family: 'ralewaythin';
+	font-size: 28px;
 	line-height: 34px;
 }
 
@@ -27,11 +27,12 @@
 }
 
 .blog .list h2 {
-	font-family: 'ralewaymedium';
+	font-family: 'ralewaythin';
     font-size: 38px;
     line-height: 50px;
     margin: 10px 0;
     text-align: left;
+    font-weight: 600;
 }
 
 .blog .list h2 b {
@@ -45,9 +46,12 @@
 }
 
 .blog .list p, .blog-entry p{
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    line-height: 30px;
+	font-family: "ralewaythin",Helvetica,Arial,sans-serif;
+    font-size: 28px;
+    line-height: 48px;
+}
+.blog-entry p img{
+   margin: 20px 0;
 }
 
 .blog hr{
