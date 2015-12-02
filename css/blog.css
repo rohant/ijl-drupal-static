@@ -1,0 +1,66 @@
+.blog-hero {
+	background-image: url('../images/bg-blog.jpg');
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	background-size: cover;
+	min-height: 476px;
+	color: #fff;
+}
+
+.blog-hero hr {
+	margin-left: 0;
+}
+
+.blog-hero h1 {
+	font-size: 72px;
+	font-family: 'ralewaythin';
+}
+
+.blog-hero p {
+	font-family: 'ralewaythin';
+	font-size: 28px;
+	line-height: 34px;
+}
+
+.blog .list {
+    margin: 15px 0;
+}
+
+.blog .list h2 {
+	font-family: 'ralewaythin';
+    font-size: 38px;
+    line-height: 50px;
+    margin: 10px 0;
+    text-align: left;
+    font-weight: 600;
+}
+
+.blog .list h2 b {
+	font-family: 'ralewaymedium';
+}
+
+.blog .list h3 {
+	font-size: 40px;
+	font-family: 'ralewaymedium';
+	margin-top: 140px;
+}
+
+.blog .list p, .blog-entry p{
+	font-family: "ralewaythin",Helvetica,Arial,sans-serif;
+    font-size: 28px;
+    line-height: 48px;
+}
+.blog-entry p img{
+   margin: 20px 0;
+}
+
+.blog hr{
+	border: 1px solid #237ec2;
+	margin-top: 50px;
+}
+
+@media (max-width: 480px) {
+	.blog-hero {
+		background-position: 30% 100%;
+	}
+}
