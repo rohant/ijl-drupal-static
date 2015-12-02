@@ -1,4 +1,3 @@
-
 body {
 	font-family: 'raleway';
 	font-size: 16px;
@@ -16,15 +15,21 @@ hr {
 h1,h2,h3,h4,h5,h6,p {
 	line-height: 1.45;
 }
+input.webform-submit{
+	display: none;
+}
 
 .btn-primary {
 	/*font-size: 18px;*/
 	/*font-size: .53em;*/
 	font-size: 1.125em;
 }
+.form-actions{
+  margin-bottom: 4em;
+}
 
 .form-item {
-	margin: 0;
+	margin: 0 !important;
 }
 
 .mobile-logo {
@@ -43,7 +48,6 @@ h1,h2,h3,h4,h5,h6,p {
 	min-height: 774px;
 	color: #fff;
 }
-
 
 .main-hero .logo img {
 	margin-top: 40px;
@@ -73,7 +77,7 @@ h1,h2,h3,h4,h5,h6,p {
 	font-family: 'ralewaymedium';
 }
 .main-hero .get-started {
-	margin-top: 70px;
+	margin-top: 40px;
 }
 .main-hero .get-started p {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -303,6 +307,9 @@ h1,h2,h3,h4,h5,h6,p {
 	font-size: 1.125em;
 }
 
+.webform-client-form-20 .form-item, .webform-client-form-20 .form-actions {
+	display: none;
+}
 
 .banner h2 {
 	margin-top: 50px;
@@ -438,6 +445,10 @@ h2 b {
 	border: 0;
 }
 
+button.btn-primary{
+	font-size: 18px;
+}
+
 /* Quotes and Testimonials */
 
 blockquote {
@@ -447,7 +458,7 @@ blockquote {
 }
 
 cite {
-	color: #237ec2;
+	color: #ffffff;
 	/*font-size: 40px;*/
 	font-size: 2.5em;
 	font-family: "freshscript";
@@ -456,7 +467,7 @@ cite {
 }
 
 .title {
-	color: #237ec2;
+	color: #ffffff;
 	font-family: 'ralewaylight';
 	/*font-size: 20px;*/
 	font-size: 1.250em;
@@ -609,7 +620,7 @@ cite {
 	/*font-size: 26px;*/
 	font-size: 1.85em;
 	font-weight: normal;
-	line-height: 23px;
+	line-height: 35px;
 	text-transform: uppercase;
 }
 .footer h5 b {
@@ -770,8 +781,8 @@ cite {
 		/*margin-left: 15%;*/
 	/*}*/
 	.navbar .navbar-nav li {
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
     .home #navbar {
 	    margin-left:  auto;
@@ -836,4 +847,9 @@ cite {
 	.navbar .navbar-nav li a  {
 		font-size: 0.875em;
 	}
+}
+/* Other Generic Styles */
+.left-black-text p {
+	color: #000;
+	text-align: left;
 }
