@@ -10,14 +10,16 @@
 }
 
 .our-process-hero h1 {
-	font-size: 60px;
+	/*font-size: 60px;*/
+	font-size: 3.750em;
 	font-family: 'ralewaythin';
 	margin-top: 80px;
 }
 
 .our-process-hero p {
 	font-family: 'ralewaysemibold';
-	font-size: 22px;
+	/*font-size: 22px;*/
+	font-size: 1.375em;
 	line-height: 34px;
 }
 
@@ -32,7 +34,8 @@
 
 .step-1 h2, .step-2 h2, .step-3 h2, .step-4 h2, .step-5 h2 {
 	font-family: 'ralewaymedium';
-	font-size: 38px;
+	/*font-size: 38px;*/
+	font-size: 2.375em;
 	line-height: 50px;
 	text-align: left;
 	margin-bottom: 30px;
@@ -72,7 +75,8 @@
 
 .step-1 p, .step-2 p, .step-3 p, .step-4 p, .step-5 p {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	/*font-size: 18px;*/
+	font-size: 1.125em;
 	line-height: 30px;
 }
 
@@ -147,6 +151,13 @@
 .step-4 .notch-down-trans:after {
   left: 24%;
   width: 100%;
+}
+
+@media (max-width: 690px) {
+	.our-process-hero {
+		min-height: 470px;
+		background-size: cover;
+	}
 }
 
 @media (max-width: 480px) {

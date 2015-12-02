@@ -19,8 +19,18 @@
   </head>
   <body class="cities">
 
+  <div class="container-fluid give-us-a-call">
+    <div class="container">
+      <div class="visible-xs">
+        <div class="row">
+          <p>Give us a call: 1.800.489.7897</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
  <!-- Main Navigation -->
-    <nav class="navbar navbar-default">
+ <nav class="navbar navbar-default" id="nav">
       <div class="container">
 
         <div class="navbar-header">
@@ -44,6 +54,7 @@
                 <li><a href="#cities">Cities</a></li>
                 <li><a href="#in-the-news">In the News</a></li>
                 <li><a href="#blog">Blog</a></li>
+                <li class="highlight"><a href="#contact-us">Contact Us</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div>
@@ -59,7 +70,7 @@
 <div class="container-fluid cities-hero">    
     <div class="container"> 
       <div class="row">
-        <div class="col-sm-5 col-push-7">
+        <div class="col-sm-5 col-xs-12">
           <h1>Cities</h1>
           <hr class="hrblack" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
@@ -78,7 +89,7 @@
       </div>
     </div>
       <div class="row">
-        <div class="col-sm-offset-6 col-sm-6">
+        <div class="col-sm-offset-6 col-sm-6 col-xs-12">
           <h3>Welcome to <br />It's Just Lunch.</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
                 <a class="btn btn-lg btn-primary" href="#" role="button">Select Your City <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -90,15 +101,17 @@
 
 <div class="container contact-us">
 
-  <h2>Let us be <b>your wingman.</b></h2>
-  <p>(or wingwoman)</p>
 
-  <h3 class="marginbottom40">Call us.<br />
-  <span>1.800.489.7897</span></h3> 
+      <h2>Let us be <b>your wingman.</b></h2>
+      <p>(or wingwoman)</p>
 
-  <hr class="hrblue" />
+      <h3 class="marginbottom40">Call us.<br />
+      <span>1.800.489.7897</span></h3>
 
-  <h3 class="marginbottom40">Or we'll call you.</h3>
+      <hr class="hrblue" />
+
+      <h3 class="marginbottom40">Or we'll call you.</h3>
+
 
   <form class="contact-form">
       <div class="row">
@@ -243,18 +256,10 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-    <!-- For Responsive Text -->
-    <!--<script src="js/flowtype.js"></script>
+     <!-- For Responsive Text -->
+     <script src="js/flowtype.js"></script>
 
-    <script>
-      $('body').flowtype({
-         minimum   : 500,
-         maximum   : 1200,
-         minFont   : 11,
-         maxFont   : 72,
-         fontRatio : 30
-      });
-    </script>-->
+     <script src="js/scripts.js"></script>
 
 
   </body>
