@@ -1,5 +1,7 @@
+
 body {
 	font-family: 'raleway';
+	font-size: 16px;
 }
 
 img {
@@ -7,20 +9,22 @@ img {
 	height: auto;
 }
 
-hr{
+hr {
 	height: 0;
 }
 
-input.webform-submit{
-	display: none;
+h1,h2,h3,h4,h5,h6,p {
+	line-height: 1.45;
 }
 
-.form-actions{
-  margin-bottom: 4em;
+.btn-primary {
+	/*font-size: 18px;*/
+	/*font-size: .53em;*/
+	font-size: 1.125em;
 }
 
 .form-item {
-	margin: 0 !important;
+	margin: 0;
 }
 
 .mobile-logo {
@@ -40,6 +44,7 @@ input.webform-submit{
 	color: #fff;
 }
 
+
 .main-hero .logo img {
 	margin-top: 40px;
 	max-width: 100%;
@@ -52,7 +57,9 @@ input.webform-submit{
 
 .main-hero h1 {
 	font-family: 'ralewaythin';
-	font-size: 74px;
+	/*font-size: 74px;*/
+	/*font-size: 1.8em;*/
+	font-size: 4.45em;
 }
 .main-hero h1 b {
 	font-family: 'ralewaymedium';
@@ -60,28 +67,35 @@ input.webform-submit{
 	display: block;
 }
 .main-hero p {
-	font-size: 22px;
+	/*font-size: 22px;*/
+	/*font-size: .55em;*/
+	font-size: 1.375em;
 	font-family: 'ralewaymedium';
 }
 .main-hero .get-started {
-	margin-top: 40px;
+	margin-top: 70px;
 }
 .main-hero .get-started p {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 34px;
+	/*font-size: 34px;*/
+	/*font-size: .85em;*/
+	font-size: 2.125em;
 	text-transform: uppercase;
 	text-align: right;
 }
 
 .main-hero .get-started p b {
 	display: block;
-	font-size: 18px;
+	/*font-size: 18px;*/
+	/*font-size: .53em;*/
+	font-size: 1.125em;
 	font-weight: bold;
 }
 
 .signoff {
 	font-family: 'freshscript';
-	font-size: 70px;
+	/*font-size: 70px;*/
+	font-size: 4.375em;
 	text-align: center;
 	color: #237ec2;
 }
@@ -93,7 +107,9 @@ input.webform-submit{
 }
 
 .our-story-box h3 {
-	font-size: 40px;
+	/*font-size: 40px;*/
+	/*font-size: 1.1em;*/
+	font-size: 2.500em;
 	font-family: 'ralewaylight';
 	text-transform: uppercase;
 	font-weight: normal;
@@ -109,6 +125,10 @@ input.webform-submit{
 
 .our-pledge {
 	margin-bottom: 80px;
+}
+
+.our-pledge h2 {
+	margin-top: 80px;
 }
 
 .matchmaker {
@@ -127,6 +147,12 @@ input.webform-submit{
 	font-size: 36px;
 	line-height: 43px;
 	text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+	.matchmaker li {
+		font-size: 30px;
+	}
 }
 
 .matchmaker li:first-child {
@@ -177,11 +203,13 @@ input.webform-submit{
 .consumer-affairs {
 	margin-top: 100px;
 	padding: 40px 0 50px 0;
-	margin-bottom: 90px;
+	/*margin-bottom: 90px;*/
 }
 .consumer-affairs h3 {
 	font-family: 'ralewaylight';
-	font-size: 33px;
+	/*font-size: 33px;*/
+	/*font-size: .82em;*/
+	font-size: 2.063em;
 	color: #fff;
 	margin-top: 10%;
 }
@@ -205,7 +233,7 @@ input.webform-submit{
 .news-read {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	font-size: 16px;
+
 }
 
 @media (max-width: 480px) {
@@ -270,12 +298,11 @@ input.webform-submit{
 
 .dating-survey p {
 	font-family: 'ralewaybold';
-	font-size: 18px;
+	/*font-size: 18px;*/
+	/*font-size: .53em;*/
+	font-size: 1.125em;
 }
 
-.webform-client-form-20 .form-item, .webform-client-form-20 .form-actions {
-	display: none;
-}
 
 .banner h2 {
 	margin-top: 50px;
@@ -331,9 +358,16 @@ input.webform-submit{
 }
 
 /* Typography */
-
+h1, h2, h3 {
+	line-height: 1;
+}
+h1 {
+	font-size: 4.5em;
+}
 h2 {
-	font-size: 72px;
+	/*font-size: 72px;*/
+	/*font-size: 2.31em;*/
+	font-size: 4.5em;
 	font-family: 'ralewaythin';
 	text-align: center;
 }
@@ -380,7 +414,10 @@ h2 b {
 
 .darkpink-banner h3, .banner h3 {
 	font-family: 'ralewaythin';
-	font-size: 64px;
+	/*font-size: 64px;*/
+	/*font-size: 1.6em;*/
+	font-size: 4em;
+
 }
 .darkpink-banner h3 b {
 	font-weight: normal;
@@ -388,7 +425,9 @@ h2 b {
 }
 
 .darkpink-banner p, .banner p {
-	font-size: 22px;
+	/*font-size: 22px;*/
+	/*font-size: .55em;*/
+	font-size: 1.375em;
 }
 
 /* Buttons */
@@ -397,10 +436,6 @@ h2 b {
 	background-color: #f68d4f;
 	text-transform: uppercase;
 	border: 0;
-}
-
-button.btn-primary{
-	font-size: 18px;
 }
 
 /* Quotes and Testimonials */
@@ -412,23 +447,32 @@ blockquote {
 }
 
 cite {
-	color: #ffffff;
-	font-size: 40px;
+	color: #237ec2;
+	/*font-size: 40px;*/
+	font-size: 2.5em;
 	font-family: "freshscript";
 	font-style: normal;
 	display: block;
 }
 
 .title {
-	color: #ffffff;
+	color: #237ec2;
 	font-family: 'ralewaylight';
-	font-size: 20px;
+	/*font-size: 20px;*/
+	font-size: 1.250em;
 }
 
 .give-us-a-call {
 	background-color: #f68d4f; 
 	color: #fff;
 	text-align: center;
+	/*min-height: 30px;*/
+}
+
+.give-us-a-call p {
+	font-size: 14px;
+	margin-top: 3px;
+	/*font-size: .65em;*/
 }
 
 .lets-chat {
@@ -440,10 +484,12 @@ cite {
 }
 
 .lets-chat p span {
-	font-size: 16px;
+	/*font-size: 16px;*/
+	font-size: .65em;
 }
 .lets-chat p {
-	font-size: 25px;
+	/*font-size: 25px;*/
+	font-size: 1.16em;
 	margin: 10px 0;
 }
 
@@ -465,7 +511,8 @@ cite {
 
 
 .carousel-indicators {
-	bottom: 130px;
+	/*bottom: 130px;*/
+	bottom: 2.1em;
 }
 
 .carousel-indicators li {
@@ -523,7 +570,9 @@ cite {
 
 .dating-trends h3 {
 	font-family: 'ralewaymedium';
-	font-size: 66px;
+	/*font-size: 66px;*/
+	/*font-size: 1.65em;*/
+	font-size: 4.125em
 }
 
 .dating-trends p b {
@@ -533,6 +582,10 @@ cite {
 
 .dating-trends h3, .dating-trends p {
 	color: #237ec2;
+}
+
+.dating-trends p {
+	font-size: 1em;
 }
 
 .footer {
@@ -545,22 +598,26 @@ cite {
 	border-radius: 0;
 	color: #237ec2;
 	font-family: 'ralewaymedium';
-	font-size: 16px;
+	/*font-size: 16px;*/
+	font-size: 1em;
 }
 .footer .select-your-city .glyphicon {
 	color: #237ec2;
 }
-.footer h5 {
+.footer h5, .footer h6 {
 	font-family: 'raleway';
-	font-size: 26px;
+	/*font-size: 26px;*/
+	font-size: 1.85em;
 	font-weight: normal;
-	line-height: 35px;
+	line-height: 23px;
 	text-transform: uppercase;
 }
 .footer h5 b {
 	font-family: 'ralewaybold';
-	font-size: 12px;
-	line-height: 14px;
+	/*font-size: 12px;*/
+	font-size: .46em;
+	/*line-height: 14px;*/
+	line-height: 1.45;
 	text-transform: none;
 	display: block;
 }
@@ -568,6 +625,7 @@ cite {
 	font-family: "Helvetica Neue", Arial;
 	font-style: italic;
 	color: inherit;
+	font-size: .65em;
 }
 
 .footer-links {
@@ -576,7 +634,8 @@ cite {
 }
 .footer-col {
 	border-right: 2px solid #fff;
-	min-height: 222px;
+	/*min-height: 222px;*/
+	min-height: 261px;
 }
 @media (max-width: 767px) {
 	.footer-col {
@@ -592,7 +651,8 @@ cite {
 }
 .footer-col:nth-of-type(2) p {
 	font-family: 'ralewaymedium';
-	font-size: 16px;
+	/*font-size: 16px;*/
+	font-size: 1.14em;
 }
 .footer-col:nth-of-type(3) {
 	border-right: 0;
@@ -602,16 +662,13 @@ cite {
 .footer-col:nth-of-type(3) h6 {
 	font-family: "Helvetica Neue", Arial;
 	font-weight: normal;
-	font-size: 26px;
+	/*font-size: 26px;*/
 }
 .footer-col:nth-of-type(3) h6 {
 	text-transform: none;
 	line-height: 32px;
 	margin-bottom: 25px;
 }
-
-/* PAGES -- to be separated out */
-
 
 
 /* modal */
@@ -683,33 +740,87 @@ cite {
 
 @media (max-width: 1104px) {
 	#navbar {
-		margin-left: 10%;
+		margin-left: 5%;
 	}
 }
 
-@media (max-width: 990px) {
-	#navbar {
-		margin-left: 21%;
+
+@media (max-width: 993px) {
+	.get-started-badge {
+		width: 100px;
+		height: 100px;
 	}
+	.get-started-badge a {
+		font-size: 14px;
+		line-height: 15px;
+		padding-top: 48px;
+	}
+    .mobile-logo {
+	    width: 120px;
+    }
+    .navbar .navbar-nav li a {
+	    font-size: .6em;
+    }
+}
+
+
+
+@media (max-width: 990px) {
+	/*#navbar {*/
+		/*margin-left: 15%;*/
+	/*}*/
 	.navbar .navbar-nav li {
-		padding-left: 5px;
-		padding-right: 5px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
     .home #navbar {
 	    margin-left:  auto;
     }
+	.mobile-logo {
+		width: 110px;
+	}
 }
 
 @media (min-width: 768px) {
 	.modal-dialog {
 		width: 675px;
 	}
+	.navbar .navbar-nav li a {
+		font-size: .7em;
+	}
 
+}
+
+@media (max-width: 767px) {
+	.mobile-logo {
+		width: 167px;
+	}
+}
+
+
+@media (max-width: 690px) {
+
+	.main-hero h1 {
+		font-size: 3.5em;
+	}
+	.main-hero p {
+		font-size: 1.2em;
+	}
+	.main-hero {
+		min-height: 470px;
+		background-size: cover;
+	}
+	.main-hero .btn {
+		margin-top: 24px;
+	}
 }
 
 @media (max-width: 480px) {
 	h2 {
-		margin-top: 0;
+		margin-top: 20px !important;
+	}
+	.contact-us {
+		margin-top: 10px;
 	}
 	.contact-form {
 		margin-bottom: 40px;
@@ -721,9 +832,8 @@ cite {
 	    padding-bottom: 200px;
     }
 }
-
-/* Other Generic Styles */
-.left-black-text p {
-	color: #000;
-	text-align: left;
+@media (min-width: 990px) {
+	.navbar .navbar-nav li a  {
+		font-size: 0.875em;
+	}
 }

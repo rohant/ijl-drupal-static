@@ -1,12 +1,11 @@
 .the-ijl-story-hero {
 	background-image: url('../images/bg-the-ijl-story.jpg');
 	background-repeat: no-repeat;
-	/*background-position: 0% 50%;*/
-	/*background-size: cover;*/
 	background-position: 50% 0%;
-	min-height: 685px;
+	/*min-height: 685px;*/
+	min-height: 615px;
 	color: #333;
-	margin-bottom: 60px;
+	/*margin-bottom: 60px;*/
 }
 
 
@@ -15,7 +14,8 @@
 }
 
 .the-ijl-story-hero h1 {
-	font-size: 72px;
+	/*font-size: 72px;*/
+	font-size: 4.5em;
 	font-family: 'ralewaythin';
 	margin-top: 80px;
 }
@@ -25,7 +25,8 @@
 }
 
 .the-ijl-story-hero p {
-	font-size: 22px;
+	/*font-size: 22px;*/
+	font-size: 1.375em;
 	line-height: 34px;
 }
 
@@ -52,7 +53,8 @@
 
 .the-ijl-story .we-believe .gray-box h3 {
 	margin-top: 0;
-	font-size: 42px;
+	/*font-size: 42px;*/
+	font-size: 2.625em;
 	line-height: 38px;
 	font-family: 'ralewaylight';
 }
@@ -62,7 +64,8 @@
 }
 
 .the-ijl-story .we-believe .gray-box p {
-	font-size: 16px;
+	/*font-size: 16px;*/
+	font-size: 1em;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin-bottom: 0;
 }
@@ -74,7 +77,8 @@
 }
 
 .the-ijl-story .by-the-numbers h2 {
-	font-size: 62px;
+	/*font-size: 62px;*/
+	font-size: 3.875em;
 	margin: 40px 0;
 }
 
@@ -87,11 +91,13 @@
 .the-ijl-story .by-the-numbers h3 b{
 	display: block;
 	font-family: 'ralewaymedium';
-	font-size: 40px;
+	/*font-size: 40px;*/
+	font-size: 2.5em;
 }
 
 .the-ijl-story .by-the-numbers h3 {
-	font-size: 16px;
+	/*font-size: 16px;*/
+	font-size: 1em;
 	line-height: 36px;
 	font-family: 'ralewaythin';
 	text-transform: uppercase;
@@ -111,6 +117,7 @@
 }
 
 @media (max-width: 480px) {
+
 	.the-ijl-story .by-the-numbers .col {
 		padding: 10px 0;
 	}
@@ -118,6 +125,14 @@
 		margin-bottom: 40px;
 	}
 }
+
+@media (max-width: 690px) {
+	.the-ijl-story-hero {
+		min-height: 470px;
+		background-size: cover;
+	}
+}
+
 
 @media (max-width: 768px) {
 	.the-ijl-story .we-believe .photo,
@@ -130,11 +145,15 @@
 
 @media (max-width: 992px) {
 
-		
+	.the-ijl-story-hero h1 {
+		margin-top: 110px;
+	}
 	.the-ijl-story .we-believe .gray-box p {
-		font-size: 12px;
+		/*font-size: 12px;*/
+		font-size: 0.750em;
 	}
 	.the-ijl-story .we-believe .gray-box h3 {
-		font-size: 32px;
+		/*font-size: 32px;*/
+		font-size: 2em;
 	}
 }
