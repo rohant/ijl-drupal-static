@@ -24,12 +24,14 @@
 	line-height: 34px;
 }
 
-.cities .find-us {
+.cities .welcome {
 	background-image: url('../images/bg-find-us.jpg');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	background-size: cover;
-	min-height: 755px;
+	/*background-size: cover;*/
+	background-size: contain;
+	/*min-height: 755px;*/
+	min-height: 500px;
 	color: #333;
 }
 .cities .find-us h2 {
@@ -42,19 +44,23 @@
 	font-family: 'ralewaymedium';
 }
 
-.cities .find-us h3 {
+.cities .welcome h3 {
 	/*font-size: 40px;*/
 	font-size: 2.5em;
 	font-family: 'ralewaymedium';
-	margin-top: 140px;
+	margin-top: 50px;
 }
 
-.cities .find-us p:nth-of-type(1) {
+.cities .welcome p:nth-of-type(1) {
 	font-family: 'raleway';
 	/*font-size: 22px;*/
 	font-size: 1.375em;
 	line-height: 34px;
 	margin-top: 70px;
+}
+
+.cities .contact-us {
+	margin-top: 20px;
 }
 
 .cities .contact-us h3 {
@@ -77,10 +83,10 @@
 	.cities-hero {
 		background-position: 30% 100%;
 	}
-	.cities .find-us h3, .cities .find-us p:nth-of-type(1) {
+	.cities .welcome h3, .cities .welcome p:nth-of-type(1) {
 		margin-top: 0;
 	}
-	.cities .find-us {
+	.cities .welcome {
 		background-position: 100% 50%;
 		min-height: 1px;
 		padding-bottom: 100px;
