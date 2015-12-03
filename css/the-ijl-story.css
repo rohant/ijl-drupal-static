@@ -17,7 +17,7 @@
 	/*font-size: 72px;*/
 	font-size: 4.5em;
 	font-family: 'ralewaythin';
-	margin-top: 80px;
+	margin-top: 110px;
 }
 
 .the-ijl-story-hero h1 b {
@@ -114,6 +114,14 @@
 
 .the-ijl-story .contact-us h2 {
 	margin-bottom: 20px;
+}
+
+/* Wide Screen */
+@media (min-width: 1230px) {
+	.the-ijl-story-hero {
+		background-position: 0 50%;
+		background-size: cover;
+	}
 }
 
 @media (max-width: 480px) {

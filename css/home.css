@@ -2,6 +2,19 @@
 	display: none;
 }
 
+.home #nav.affix .mobile-logo {
+	display: block !important;
+}
+
+.ijl-difference {
+	margin-bottom: 40px;
+}
+
+.ijl-difference-container, .our-process-container {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
 .home-our-clients {
 	background-image: url('../images/bg-home-our-clients.jpg');
 	background-repeat: no-repeat;
@@ -97,8 +110,15 @@
 	.home .our-process-container h3 {
 		font-size: 4em;
 	}
+	.ijl-difference {
+		margin-bottom: 0;
+	}
 	.ijl-difference h2 {
 		margin-top: .8em;
+	}
+	.ijl-difference-container, .our-process-container {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
 

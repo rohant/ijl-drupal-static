@@ -17,7 +17,7 @@
 .our-clients-hero h1 {
 	/*font-size: 72px;*/
 	font-family: 'ralewaythin';
-	margin-top: 80px;
+	margin-top: 110px;
 }
 
 .our-clients-hero p {
@@ -51,6 +51,14 @@
 
 .love-a-good-story .col-5 {
 	padding-top: 45px;
+}
+
+/* Wide Screen */
+@media (min-width: 1230px) {
+	.our-clients-hero {
+		background-position: 0 50%;
+		background-size: cover;
+	}
 }
 
 @media (max-width: 690px) {
