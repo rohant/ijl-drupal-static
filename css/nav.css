@@ -11,6 +11,10 @@ body:not(.home) .navbar {
 	top: 0
 }
 
+.home #nav.affix {
+	top: 0;
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -18,7 +22,8 @@ body:not(.home) .navbar {
 
 #nav.affix {
 	position: fixed;
-	top: 0;
+	/*top: 0;*/
+	top: 30px;
 	width: 100%;
 	z-index: 20;
 }
@@ -83,12 +88,23 @@ body:not(.home) .navbar {
 	font-family: 'ralewaymedium';
 	font-size: 20px;
 	line-height: 25px;
-	padding-top: 50px;
+	/*padding-top: 50px;*/
+	padding-top: 40px;
 }
 
 .home .get-started-badge {
 	display: none;
 	visibility: hidden;
+}
+
+.home #nav.affix .get-started-badge {
+	display: block;
+	visibility: visible;
+	margin-top: 10px;
+}
+
+.home #nav.affix .get-started-badge a {
+	margin-top: 3px;
 }
 
 @media (max-width: 767px) {

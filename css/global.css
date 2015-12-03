@@ -40,6 +40,10 @@ input.webform-submit{
     left: 20px;
 }
 
+.get-started-badge {
+
+}
+
 .main-hero {
 	background-image: url('../images/bg-convertible.jpg');
 	background-repeat: no-repeat;
@@ -478,6 +482,11 @@ cite {
 	color: #fff;
 	text-align: center;
 	/*min-height: 30px;*/
+
+	width: 100%;
+	z-index: 20;
+	position: fixed;
+	top: 0;
 }
 
 .give-us-a-call p {
@@ -747,6 +756,15 @@ cite {
 	z-index: 300;
 	top: 370px;
 	left: -110px;
+}
+
+
+/* Wide Screen */
+@media (min-width: 1230px) {
+	.main-hero, .home-our-clients {
+		background-position: bottom center;
+		background-size: cover;
+	}
 }
 
 @media (max-width: 1104px) {
