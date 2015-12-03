@@ -40,10 +40,6 @@ input.webform-submit{
     left: 20px;
 }
 
-.get-started-badge {
-
-}
-
 .main-hero {
 	background-image: url('../images/bg-convertible.jpg');
 	background-repeat: no-repeat;
@@ -482,11 +478,6 @@ cite {
 	color: #fff;
 	text-align: center;
 	/*min-height: 30px;*/
-
-	width: 100%;
-	z-index: 20;
-	position: fixed;
-	top: 0;
 }
 
 .give-us-a-call p {
@@ -775,15 +766,15 @@ cite {
 
 
 @media (max-width: 993px) {
-	.get-started-badge {
-		width: 100px;
-		height: 100px;
-	}
-	.get-started-badge a {
-		font-size: 14px;
-		line-height: 15px;
-		padding-top: 48px;
-	}
+	/*.get-started-badge {*/
+		/*width: 100px;*/
+		/*height: 100px;*/
+	/*}*/
+	/*.get-started-badge a {*/
+		/*font-size: 14px;*/
+		/*line-height: 15px;*/
+		/*padding-top: 48px;*/
+	/*}*/
     .mobile-logo {
 	    width: 120px;
     }
