@@ -482,11 +482,6 @@ cite {
 	color: #fff;
 	text-align: center;
 	/*min-height: 30px;*/
-
-	width: 100%;
-	z-index: 20;
-	position: fixed;
-	top: 0;
 }
 
 .give-us-a-call p {
