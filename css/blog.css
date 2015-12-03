@@ -14,6 +14,7 @@
 .blog-hero h1 {
 	font-size: 72px;
 	font-family: 'ralewaythin';
+	margin-top: 80px;
 }
 
 .blog-hero p {
@@ -24,6 +25,10 @@
 
 .blog .list {
     margin: 15px 0;
+}
+
+.blog-head h2{
+	margin-top: 80px;
 }
 
 .blog .list h2 {

@@ -11,13 +11,17 @@
 
 .our-process-hero h1 {
 	/*font-size: 60px;*/
-	font-size: 3.750em;
+	font-size: 4.5em;
 	font-family: 'ralewaythin';
 	margin-top: 80px;
 }
 
+.our-process-hero h1 b {
+    font-family: 'ralewaymedium';
+}
+
 .our-process-hero p {
-	font-family: 'ralewaysemibold';
+	font-family: 'raleway';
 	/*font-size: 22px;*/
 	font-size: 1.375em;
 	line-height: 34px;
