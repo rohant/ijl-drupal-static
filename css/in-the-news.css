@@ -26,8 +26,8 @@
 .in-the-news-hero p {
 	font-family: 'raleway';
 	/*font-size: 28px;*/
-	font-size: 1.750em;
-	line-height: 38px;
+	font-size: 1.375em;
+	line-height: 34px;
 }
 
 .in-the-news-hero a {
@@ -72,15 +72,15 @@
 .featured-article h2 {
 	font-family: 'ralewaythin';
 	/*font-size: 64px;*/
-	font-size: 4em;
+	font-size: 2.575em;
 	line-height: 55px;
 	text-align: left;
 }
 
 .featured-article p {
-	font-family: 'ralewaythin';
+	font-family: 'raleway';
 	/*font-size: 28px;*/
-	font-size: 1.7em;
+	font-size: 1.375em;
 	/*line-height: 48px;*/
 	line-height: 1.45;
 }
@@ -89,7 +89,7 @@
 	color: #f68d4f;
 	/*font-size: 28px;*/
 	/*font-size: 3.125em;*/
-	font-size: 1.7em;
+	font-size: 1.175em;
 }
 
 .in-the-news .contact-us h2 {
