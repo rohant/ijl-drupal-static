@@ -120,6 +120,9 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	.home .mobile-logo {
+		display: inline-block;
+	}
 }
 
 /*@media (max-width: 690px) {*/
