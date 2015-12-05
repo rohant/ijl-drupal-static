@@ -18,9 +18,9 @@
 }
 
 .blog-hero p {
-	font-family: 'ralewaythin';
-	font-size: 28px;
-	line-height: 34px;
+    font-family: "raleway";
+    font-size: 1.375em;
+    line-height: 34px;
 }
 
 .blog .list {

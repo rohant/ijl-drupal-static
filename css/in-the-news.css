@@ -4,7 +4,7 @@
 	/*background-position: 0% 100%;*/
 	/*background-size: cover;*/
 	background-position: 50% 50%;
-	min-height: 477px;
+	min-height: 476px;
 	color: #333;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .in-the-news-hero p {
-	font-family: 'ralewaythin';
+	font-family: 'raleway';
 	/*font-size: 28px;*/
 	font-size: 1.750em;
 	line-height: 38px;

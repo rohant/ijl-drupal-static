@@ -17,6 +17,10 @@
 	margin-top: 110px;
 }
 
+.cities-hero h1 b{
+	 font-family: "ralewaymedium"
+}
+
 .cities-hero p {
 	font-family: 'raleway';
 	/*font-size: 22px;*/
@@ -111,4 +115,18 @@
     .cities .contact-us {
 	    margin-top: 0;
     }
+}
+
+.cities .relative{
+	position: relative;
+}
+
+.cities .selects-tab {
+	display: none;
+	margin-top: 70px;
+	z-index: 333;
+}
+
+.cities .selects-tab select{
+	margin-bottom: 15px;
 }
