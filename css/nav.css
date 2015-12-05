@@ -4,11 +4,25 @@
 	background-color: #f5f5f2;
 }
 
+.home .navbar {
+	background-color: transparent;
+	background-image: url("../images/bg-transparent-nav.png");
+	background-repeat: repeat;
+	background-position: top left;
+	margin-top: -50px;
+}
+.home .navbar.affix {
+	background-color: #f5f5f2;
+	background-image: none;
+	margin-top: 0;
+}
+
 body:not(.home) .navbar {
 	width: 100%;
 	position: fixed;
 	z-index: 100;
-	top: 0
+	top: 0;
+	background-color: #fafdfb;
 }
 
 
@@ -16,6 +30,11 @@ body:not(.home) .navbar {
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
+	vertical-align: middle;
+}
+
+.navbar-default {
+	border: 0;
 }
 
 #nav.affix {
@@ -82,7 +101,7 @@ body:not(.home) .navbar {
 .get-started-badge a {
 	display: block; 
 	color: #fff;
-	font-family: 'ralewaymedium';
+	font-family: 'raleway';
 	font-size: 20px;
 	line-height: 25px;
 	padding-top: 30px;
@@ -96,11 +115,19 @@ body:not(.home) .navbar {
 .home #nav.affix .get-started-badge {
 	display: block;
 	visibility: visible;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
+	margin-top: -2px;
 }
 
 .home #nav.affix .get-started-badge a {
-	margin-top: -8px;
+	/*margin-top: -8px;*/
+	margin-top: 24px;
+}
+
+@media (min-width: 769px) {
+	/*.home .navbar {*/
+		/*margin-top: -50px;*/
+	/*}*/
 }
 
 @media (max-width: 767px) {
@@ -120,6 +147,14 @@ body:not(.home) .navbar {
 	.home h1 {
 		margin-top: 0;
 	}
+    .home .navbar, .home .navbar.affix {
+	    background-color: #f5f5f2;
+	    background-image: none;
+	    position: fixed;
+	    top: 80px;
+	    width: 100%;
+    }
+
 }
 
 .home .ijl-menu {

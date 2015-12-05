@@ -33,7 +33,7 @@ input.webform-submit{
 }
 
 .mobile-logo {
-    margin-top: 8px;
+    margin-top: 7px;
     margin-left: 15px;
     margin-bottom: 8px;
     position: absolute;
@@ -777,6 +777,7 @@ cite {
 	/*}*/
     .mobile-logo {
 	    width: 120px;
+	    margin-top: 13px;
     }
     .navbar .navbar-nav li a {
 	    font-size: .6em;
