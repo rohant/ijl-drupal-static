@@ -33,6 +33,34 @@ body:not(.home) .navbar {
 	vertical-align: middle;
 }
 
+/*.navbar-collapse.collapse.in .navbar-nav {*/
+	/*background-color: transparent !important;*/
+	/*background-image: url("../images/bg-transparent-nav-mobile.png") !important;*/
+	/*background-repeat: repeat;*/
+	/*background-position: top left;*/
+/*}*/
+
+.navbar-collapse.collapse.in {
+	padding-left: 0;
+	padding-right: 0;
+}
+.navbar-collapse.collapse.in .navbar-nav {
+	width: 100%;
+}
+
+.navbar-collapse.collapse.in .navbar-nav li {
+	width: 100%;
+	border-bottom: 1px solid #000;
+}
+
+.navbar-collapse.collapse.in .navbar-nav li a {
+	font-size: 1em;
+}
+.navbar-collapse.collapse.in .navbar-nav li.active a {
+	font-family: 'ralewaybold';
+	background-color: transparent;
+}
+
 .navbar-default {
 	border: 0;
 }
@@ -41,7 +69,11 @@ body:not(.home) .navbar {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 20;
+	/*z-index: 20;*/
+}
+
+.navbar, #nav.affix {
+	z-index: 90;
 }
 
 #sidebar.affix-top {
