@@ -40,6 +40,9 @@ body:not(.home) .navbar {
 	/*background-position: top left;*/
 /*}*/
 
+#navbar.navbar-collapse.collapse.in {
+	margin: 0;
+}
 .navbar-collapse.collapse.in {
 	padding-left: 0;
 	padding-right: 0;
@@ -185,6 +188,25 @@ body:not(.home) .navbar {
 	    position: fixed;
 	    top: 80px;
 	    width: 100%;
+    }
+
+    .navbar .container {
+	    padding-left: 0;
+	    padding-right: 0;
+    }
+    .navbar .navbar-header {
+	    padding-left: 15px;
+	    padding-right: 15px;
+    }
+
+    .navbar .ijl-menu {
+	    padding-left: 0;
+	    padding-right: 0;
+    }
+
+    .navbar-nav {
+	    margin-top: 0;
+	    margin-bottom: 0;
     }
 
 }
