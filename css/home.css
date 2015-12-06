@@ -102,6 +102,15 @@
 	margin-top: .5em;
 }
 
+.home .darkpink-banner p, .home .banner p {
+	font-family: 'ralewaymedium';
+}
+
+@media (min-width: 1280px) {
+	.home .matchmaker-txt, .home .people-txt {
+		font-size: 28px;
+	}
+}
 @media (max-width: 768px) {
 	#our-process-carousel .carousel-inner {
 		height: 450px;
@@ -144,3 +153,24 @@
 		/*bottom: 0;*/
 	/*}*/
 /*}*/
+
+@media (max-width: 480px) {
+
+	.home .darkpink-banner h3, .home .banner h3 {
+		font-size: 40px;
+	}
+
+	.home .matchmaker-txt, .home .people-txt {
+		font-size: 28px;
+	}
+    .dating-trends, .dating-survey {
+	    display: none;
+    }
+    .carousel-indicators {
+	    transform: scale(0.8);
+	    bottom: 3em;
+    }
+	.carousel-indicators li {
+		margin: 0 5px;
+	}
+}
