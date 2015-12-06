@@ -161,19 +161,22 @@
 	}
 
 	.home .matchmaker-txt, .home .people-txt {
-		font-size: 28px;
+		font-size: 25px;
 	}
     .dating-trends, .dating-survey {
 	    display: none;
     }
     .carousel-indicators {
 	    transform: scale(0.8);
-	    bottom: 3em;
+	    bottom: 1em;
     }
 	.carousel-indicators li {
 		margin: 0 5px;
 	}
     .our-pledge {
 	    margin-bottom: 30px;
+    }
+    .consumer-affairs h3 {
+	    margin-top: 0;
     }
 }

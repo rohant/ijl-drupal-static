@@ -39,6 +39,9 @@
 .in-the-news .read-more {
 	color: #f68d4f;
 }
+.in-the-news .news-read .read-more {
+	color: #237ec2;
+}
 .in-the-news .news-img {
 	max-width: 255px;
 }
@@ -123,5 +126,14 @@
 	}
     .in-the-news .contact-us {
 	    margin-top: 20px;
+    }
+    .in-the-news .featured-article {
+	    padding-top: 0;
+    }
+    .in-the-news .featured-article h2 {
+	    line-height: 1.3em;
+    }
+    .in-the-news .contact-us h2 {
+	    font-size: 4em;
     }
 }

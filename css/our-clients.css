@@ -81,6 +81,11 @@
 @media (max-width: 480px) {
 	.our-clients .love-a-good-story h2 {
 		margin-top: 40px;
+		font-size: 52px;
+		margin-bottom: 30px;
+	}
+	.our-clients .love-a-good-story p {
+		margin-bottom: 30px;
 	}
 	.our-clients-hero {
 		min-height: 1px;
