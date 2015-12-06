@@ -233,10 +233,20 @@ input.webform-submit{
 	margin-top: 80px;
 }
 
+.news-read-arrow-left {
+	background-image: url('../images/news-arrow-left.jpg');
+	background-repeat: no-repeat;
+	background-position: center left;
+}
 
+.news-read-arrow-right {
+	background-image: url('../images/news-arrow-right.jpg');
+	background-repeat: no-repeat;
+	background-position: center right;
+}
 .news-read {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 10px;
+	padding-bottom: 0px;
 
 }
 
