@@ -36,6 +36,10 @@
 	margin-left: 0;
 }
 
+.our-process .darkpink-banner p {
+	font-family: 'ralewaymedium'
+}
+
 .step-1 h2, .step-2 h2, .step-3 h2, .step-4 h2, .step-5 h2, .step-6 h2 {
 	font-family: 'ralewaymedium';
 	/*font-size: 38px;*/
@@ -105,8 +109,8 @@
 	background-image: url('../images/bg-step-2.jpg');
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background-position: -100px 0;
-	background-size: contain;
+	/*background-position: -100px 0;*/
+	/*background-size: contain;*/
 
 	background-repeat: no-repeat;
 	background-color: #ffffff;
@@ -196,25 +200,62 @@
 		background-position: 0 30%;
 		background-size: cover;
 	}
+	.step-2 {
+		background-position: -200px 0;
+	}
+    .step-4 {
+	    background-position: top center;
+    }
+    .step-6 {
+	    background-position: -100px 0;
+    }
 }
 
+
+@media (min-width: 691px) {
+	.step-2 {
+		background-position: -100px 0;
+		background-size: contain;
+	}
+}
 
 @media (max-width: 690px) {
 	.our-process-hero {
 		min-height: 470px;
 		background-size: cover;
 	}
+	.step-2 {
+		background-size: cover;
+		background-position: bottom right;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+    .step-4 {
+	    background-position: bottom left;
+	    background-size: cover;
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+    }
+    .step-6 {
+	    background-position: bottom right;
+	    background-size: cover;
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+    }
 }
 
 @media (max-width: 480px) {
-	.step-1, .step-2, .step-3, .step-4 {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-	.step-2, .step-4 {
-		padding-top: 0;
-		padding-bottom: 0;
-		background-position: 100% 50%;
+	/*.step-1, .step-2, .step-3, .step-4 {*/
+		/*padding-top: 40px;*/
+		/*padding-bottom: 40px;*/
+	/*}*/
+	/*.step-2, .step-4 {*/
+		/*padding-top: 0;*/
+		/*padding-bottom: 0;*/
+		/*background-position: 100% 50%;*/
+	/*}*/
+	.step-1, .step-2, .step-3, .step-4, .step-5, .step-6 {
+		padding-top: 20px;
 	}
 	.step-2 .notch-wrap, .step-4 .notch-wrap {
 		bottom: -20px;
@@ -223,4 +264,8 @@
 		margin-top: 50px;
 		margin-bottom: 10px;
 	}
+    .darkpink-banner h3, .banner h3 {
+	    font-size: 51px;
+    }
+
 }

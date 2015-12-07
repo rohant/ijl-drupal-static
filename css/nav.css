@@ -25,21 +25,17 @@ body:not(.home) .navbar {
 	background-color: #fafdfb;
 }
 
-
-
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
 	vertical-align: middle;
 }
 
-/*.navbar-collapse.collapse.in .navbar-nav {*/
-	/*background-color: transparent !important;*/
-	/*background-image: url("../images/bg-transparent-nav-mobile.png") !important;*/
-	/*background-repeat: repeat;*/
-	/*background-position: top left;*/
-/*}*/
 
+
+#navbar.navbar-collapse.collapse.in {
+	margin: 0;
+}
 .navbar-collapse.collapse.in {
 	padding-left: 0;
 	padding-right: 0;
@@ -156,19 +152,7 @@ body:not(.home) .navbar {
 	margin-top: 24px;
 }
 
-@media (min-width: 769px) {
-	/*.home .navbar {*/
-		/*margin-top: -50px;*/
-	/*}*/
-}
-
 @media (max-width: 767px) {
-	/*.home .navbar {*/
-		/*width: 100%;*/
-		/*position: fixed;*/
-		/*z-index: 100;*/
-		/*top: 30px;*/
-	/*}*/
 
 	#nav.affix {
 		top: 30px;
@@ -186,6 +170,34 @@ body:not(.home) .navbar {
 	    top: 80px;
 	    width: 100%;
     }
+
+    .navbar .container {
+	    padding-left: 0;
+	    padding-right: 0;
+    }
+    .navbar .navbar-header {
+	    padding-left: 15px;
+	    padding-right: 15px;
+    }
+
+    .navbar .ijl-menu {
+	    padding-left: 0;
+	    padding-right: 0;
+    }
+
+    .navbar-nav {
+	    margin-top: 0;
+	    margin-bottom: 0;
+    }
+
+	#navbar.navbar-collapse {
+		opacity: 0;
+	}
+
+	#navbar.navbar-collapse.collapse.in {
+		opacity: 1;
+		transition: all .5s ease-in-out;
+	}
 
 }
 

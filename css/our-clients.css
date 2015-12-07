@@ -55,6 +55,11 @@
 	padding-top: 45px;
 }
 
+.our-clients .darkpink-banner p, .our-clients .banner p {
+	font-size: 24px;
+	font-family: 'ralewaymedium';
+	margin-top: 20px;
+}
 /* Wide Screen */
 @media (min-width: 1230px) {
 	.our-clients-hero {
@@ -76,8 +81,17 @@
 @media (max-width: 480px) {
 	.our-clients .love-a-good-story h2 {
 		margin-top: 40px;
+		font-size: 52px;
+		margin-bottom: 30px;
+	}
+	.our-clients .love-a-good-story p {
+		margin-bottom: 30px;
 	}
 	.our-clients-hero {
 		min-height: 1px;
+		background-position: bottom right;
+	}
+	.our-clients .darkpink-banner h3, .our-clients .banner h3 {
+		font-size: 42px;
 	}
 }
