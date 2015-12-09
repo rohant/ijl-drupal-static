@@ -40,6 +40,10 @@ input.webform-submit{
     left: 20px;
 }
 
+.mobile-logo a {
+	display: inline-block;
+}
+
 .main-hero {
 	background-image: url('../images/bg-convertible.jpg');
 	background-repeat: no-repeat;
@@ -458,14 +462,34 @@ h2 b {
 
 /* Buttons */
 
+.btn-primary, .btn-secondary, .btn-tertiary {
+	text-transform: uppercase;
+}
+
+/* orange button */
 .btn-primary {
 	background-color: #f68d4f;
-	text-transform: uppercase;
+	color: #fff;
 	border: 0;
 }
 
-button.btn-primary{
-	font-size: 18px;
+button.btn-primary, .btn-secondary, .btn-tertiary {
+	/*font-size: 18px;*/
+	font-size: 1.08em;
+}
+
+/* blue button */
+.btn-secondary {
+	background-color: #237ec2;
+	color: #fff;
+	border: 0;
+}
+
+.btn-tertiary {
+	background-color: #fff;
+	color: #000;
+	border-radius: 0;
+	border: 1px solid #000;
 }
 
 /* Quotes and Testimonials */
