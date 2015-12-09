@@ -44,17 +44,22 @@
 	font-family: 'ralewaymedium';
 }
 
+.blog .list strong{
+	padding-top: 40px;
+	display: block;
+}
+
+
 .blog .list h3 {
 	font-size: 40px;
 	font-family: 'ralewaymedium';
 	margin-top: 140px;
 }
 
-.blog .list p, .blog-entry p{
-	font-family: "ralewaythin",Helvetica,Arial,sans-serif;
-    font-size: 28px;
-    line-height: 48px;
+.blog .list .btn-primary{
+ font-size: 0.75em;
 }
+
 .blog-entry p img{
    margin: 20px 0;
 }

@@ -43,8 +43,7 @@ input.webform-submit{
 .main-hero {
 	background-image: url('../images/bg-convertible.jpg');
 	background-repeat: no-repeat;
-	background-position: top center;
-	/*background-size: cover;*/
+	background-attachment: fixed;
 	min-height: 774px;
 	color: #fff;
 }
@@ -336,6 +335,16 @@ input.webform-submit{
 	background-color: #237ec2;
 	color: #fff;
 	text-align: center;
+}
+
+/* FAQ */
+.faq {
+	margin-top: 70px;
+}
+
+.faq strong{
+	padding-top: 40px;
+	display: block;
 }
 
 
