@@ -147,7 +147,7 @@
 	font-family: 'ralewaymedium';
 }
 
-.ijl-featured-couple p, ul {
+.ijl-featured-couple p, .ijl-featured-couple ul {
 	font-size: 1.32em;
 	line-height: 1.45em;
 }

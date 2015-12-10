@@ -37,6 +37,7 @@ input.webform-submit{
     margin-left: 15px;
     margin-bottom: 8px;
     position: absolute;
+	z-index: 30;
     left: 20px;
 }
 
@@ -765,9 +766,9 @@ cite {
 	    width: 120px;
 	    margin-top: 13px;
     }
-    .navbar .navbar-nav li a {
-	    font-size: .6em;
-    }
+    /*.navbar .navbar-nav li a {*/
+	    /*font-size: .6em;*/
+    /*}*/
 }
 
 
@@ -789,9 +790,9 @@ cite {
 	.modal-dialog {
 		width: 675px;
 	}
-	.navbar .navbar-nav li a {
-		font-size: .7em;
-	}
+	/*.navbar .navbar-nav li a {*/
+		/*font-size: .7em;*/
+	/*}*/
 
 }
 
@@ -836,9 +837,21 @@ cite {
 	    padding-bottom: 200px;
     }
 }
-@media (min-width: 990px) {
-	.navbar .navbar-nav li a  {
-		font-size: 0.875em;
+@media (min-width: 768px) {
+	/*.navbar .navbar-nav li a  {*/
+		/*font-size: 0.875em;*/
+	/*}*/
+	.navbar .navbar-nav li a {
+		font-size: .8em;
+	}
+}
+
+@media (min-width: 960px) {
+	/*.navbar .navbar-nav li a  {*/
+	/*font-size: 0.875em;*/
+	/*}*/
+	.navbar .navbar-nav li a {
+		font-size: 1.1em;
 	}
 }
 /* Other Generic Styles */

@@ -96,7 +96,8 @@ body:not(.home) .navbar {
 	font-family: 'ralewaymedium';
 	/*font-size: .65em;*/
 	/*font-size: .48em;*/
-	font-size: 0.87em;
+	/*font-size: 0.87em;*/
+	font-size: 1.1em;
 }
 
 @media (min-width: 1300px) {
