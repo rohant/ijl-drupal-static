@@ -66,6 +66,8 @@ body:not(.home) .navbar {
 	width: 100%;
 	/*z-index: 20;*/
 	border-bottom: .5px solid #fff;
+	transition: all .5s ease-in-out;
+
 }
 
 @media (min-width: 768px) {
