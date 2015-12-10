@@ -1,8 +1,6 @@
 .our-process-hero {
 	background-image: url('../images/bg-our-process.jpg');
 	background-repeat: no-repeat;
-	/*background-position: 0% 50%;*/
-	/*background-size: cover;*/
 	background-position: 100% 50%;
 	min-height: 476px;
 	color: #333;
@@ -109,15 +107,11 @@
 	background-image: url('../images/bg-step-2.jpg');
 	padding-top: 60px;
 	padding-bottom: 60px;
-	/*background-position: -100px 0;*/
-	/*background-size: contain;*/
-
 	background-repeat: no-repeat;
 	background-color: #ffffff;
 	position: relative;
 	min-height: 395px;
 }
-
 
 .step-3 {
 	padding-top: 50px;
@@ -130,7 +124,6 @@
 	padding-bottom: 80px;
 	background-position: 0 50%;
 	background-size: cover;
-
 	background-repeat: no-repeat;
 	background-color: #f4f4f3;
 	position: relative;
@@ -245,15 +238,6 @@
 }
 
 @media (max-width: 480px) {
-	/*.step-1, .step-2, .step-3, .step-4 {*/
-		/*padding-top: 40px;*/
-		/*padding-bottom: 40px;*/
-	/*}*/
-	/*.step-2, .step-4 {*/
-		/*padding-top: 0;*/
-		/*padding-bottom: 0;*/
-		/*background-position: 100% 50%;*/
-	/*}*/
 	.step-1, .step-2, .step-3, .step-4, .step-5, .step-6 {
 		padding-top: 20px;
 	}

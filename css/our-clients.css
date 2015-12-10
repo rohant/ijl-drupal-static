@@ -2,11 +2,9 @@
 	background-image: url('../images/bg-our-clients.jpg');
 	background-repeat: no-repeat;
 	background-position: 60% 50%;
-
 	min-height: 483px;
 	color: #333;
 }
-
 
 .our-clients-hero hr {
 	margin-left: 0;
@@ -149,7 +147,7 @@
 	font-family: 'ralewaymedium';
 }
 
-.ijl-featured-couple p, ul {
+.ijl-featured-couple p, .ijl-featured-couple ul {
 	font-size: 1.32em;
 	line-height: 1.45em;
 }
@@ -204,8 +202,6 @@
 		background-size: cover;
 	}
 }
-
-
 
 @media (max-width: 690px) {
 	.our-clients-hero {

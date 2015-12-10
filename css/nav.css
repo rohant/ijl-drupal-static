@@ -4,16 +4,17 @@
 	background-color: #f5f5f2;
 }
 
-.home .navbar {
+ .navbar {
 	background-color: transparent;
 	background-image: url("../images/bg-transparent-nav.png");
 	background-repeat: repeat;
 	background-position: top left;
 	margin-top: -50px;
 }
+
 .home .navbar.affix {
-	background-color: #f5f5f2;
-	background-image: none;
+	/*background-color: #f5f5f2;*/
+	/*background-image: none;*/
 	margin-top: 0;
 }
 
@@ -22,7 +23,7 @@ body:not(.home) .navbar {
 	position: fixed;
 	z-index: 100;
 	top: 0;
-	background-color: #fafdfb;
+	margin-top: 0;
 }
 
 .navbar .navbar-nav {
@@ -30,8 +31,6 @@ body:not(.home) .navbar {
     float: none;
 	vertical-align: middle;
 }
-
-
 
 #navbar.navbar-collapse.collapse.in {
 	margin: 0;
@@ -66,8 +65,20 @@ body:not(.home) .navbar {
 	top: 0;
 	width: 100%;
 	/*z-index: 20;*/
+	border-bottom: .5px solid #fff;
+	transition: all .5s ease-in-out;
+
 }
 
+@media (min-width: 768px) {
+	#nav.affix {
+		border-bottom: 0;
+	}
+}
+
+.home #nav.affix ul li:first-child {
+	display: none;
+}
 .navbar, #nav.affix {
 	z-index: 90;
 }
@@ -82,9 +93,11 @@ body:not(.home) .navbar {
 }
 .navbar-default .navbar-nav>li>a {
 	color: #333;
+	font-family: 'ralewaymedium';
 	/*font-size: .65em;*/
 	/*font-size: .48em;*/
-	font-size: 0.875em;
+	/*font-size: 0.87em;*/
+	font-size: 1.1em;
 }
 
 @media (min-width: 1300px) {

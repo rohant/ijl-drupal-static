@@ -2,7 +2,6 @@
 	background-image: url('../images/bg-cities.jpg');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	/*background-size: cover;*/
 	min-height: 476px;
 	color: #333;
 }
@@ -79,7 +78,6 @@
 .cities .contact-us h2 {
 	line-height: 1;
 }
-
 
 /* Wide Screen */
 @media (min-width: 1230px) {

@@ -3,8 +3,66 @@
 }
 
 .home #nav.affix .mobile-logo {
-	display: block !important;
+	display: inline-block !important;
 }
+
+.main-hero {
+	background-image: url('../images/bg-convertible.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 65%;
+	background-attachment: fixed;
+	/*min-height: 774px;*/
+	height: 99.9vh;
+	color: #fff;
+}
+
+.main-hero .logo img {
+	margin-top: 40px;
+	max-width: 100%;
+	min-width: 286px;
+}
+
+.main-hero .btn {
+	margin-top: 48px;
+}
+
+.main-hero h1 {
+	font-family: 'ralewaythin';
+	/*font-size: 74px;*/
+	/*font-size: 1.8em;*/
+	font-size: 4.45em;
+}
+.main-hero h1 b {
+	font-family: 'ralewaymedium';
+	font-weight: normal;
+	display: block;
+}
+.main-hero p {
+	/*font-size: 22px;*/
+	/*font-size: .55em;*/
+	font-size: 1.375em;
+	font-family: 'ralewaymedium';
+}
+.main-hero .get-started {
+	margin-top: 40px;
+}
+.main-hero .get-started p {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/*font-size: 34px;*/
+	/*font-size: .85em;*/
+	font-size: 2.125em;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.main-hero .get-started p b {
+	display: block;
+	/*font-size: 18px;*/
+	/*font-size: .53em;*/
+	font-size: 1.125em;
+	font-weight: bold;
+}
+
 
 .ijl-difference {
 	margin-bottom: 40px;
@@ -94,8 +152,6 @@
 	height: 580px;
 	background-size: contain;
 }
-
-
 
 .ijl-difference h2 {
 	/*margin-top: 100px;*/
