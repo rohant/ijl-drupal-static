@@ -125,3 +125,9 @@
   border-bottom: 20px solid #fff;
   border-left: 20px solid transparent;
 }
+
+.vertical-center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
