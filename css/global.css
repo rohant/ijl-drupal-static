@@ -181,7 +181,9 @@ input.webform-submit{
 .in-the-news-blocks h2 {
 	margin-top: 80px;
 }
-
+.in-the-news-lead {
+	margin-bottom: 15%;
+}
 .news-read-arrow-left {
 	background-image: url('../images/news-arrow-left.jpg');
 	background-repeat: no-repeat;
