@@ -2,11 +2,9 @@
 	background-image: url('../images/bg-our-clients.jpg');
 	background-repeat: no-repeat;
 	background-position: 60% 50%;
-
 	min-height: 483px;
 	color: #333;
 }
-
 
 .our-clients-hero hr {
 	margin-left: 0;
@@ -204,8 +202,6 @@
 		background-size: cover;
 	}
 }
-
-
 
 @media (max-width: 690px) {
 	.our-clients-hero {

@@ -528,6 +528,11 @@ cite {
 	margin-top: 3px;
 	/*font-size: .65em;*/
 }
+@media (min-width: 768px) {
+	body:not(.home) .give-us-a-call {
+		display: none;
+	}
+}
 
 .lets-chat {
 	background-color: #f1f1f0;
@@ -809,15 +814,6 @@ cite {
 
 
 @media (max-width: 993px) {
-	/*.get-started-badge {*/
-		/*width: 100px;*/
-		/*height: 100px;*/
-	/*}*/
-	/*.get-started-badge a {*/
-		/*font-size: 14px;*/
-		/*line-height: 15px;*/
-		/*padding-top: 48px;*/
-	/*}*/
     .mobile-logo {
 	    width: 120px;
 	    margin-top: 13px;
@@ -830,9 +826,6 @@ cite {
 
 
 @media (max-width: 990px) {
-	/*#navbar {*/
-		/*margin-left: 15%;*/
-	/*}*/
 	.navbar .navbar-nav li {
 		padding-left: 5px;
 		padding-right: 5px;
