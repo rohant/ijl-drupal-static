@@ -6,3 +6,15 @@
   box-shadow: none;
   outline: 0 !important;
 }
+
+.form-actions{
+  margin-bottom: 4em;
+}
+
+.form-item {
+  margin: 0 !important;
+}
+
+.webform-client-form-20 .form-item, .webform-client-form-20 .form-actions {
+  display: none;
+}

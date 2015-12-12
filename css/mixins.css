@@ -127,7 +127,11 @@
 }
 
 .vertical-center {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
