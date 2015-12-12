@@ -6,7 +6,7 @@
 
  .navbar {
 	background-color: transparent;
-	background-image: url("../images/bg-transparent-nav.png");
+	background-image: url("../images/bg-transparent-nav2.png");
 	background-repeat: repeat;
 	background-position: top left;
 	margin-top: -50px;
@@ -122,6 +122,19 @@ body:not(.home) .navbar {
 	color: #fff !important;
 }
 
+.mobile-logo {
+	margin-top: 7px;
+	margin-left: 15px;
+	margin-bottom: 8px;
+	position: absolute;
+	z-index: 30;
+	left: 20px;
+}
+
+.mobile-logo a {
+	display: inline-block;
+}
+
 /* Circular Badge */
 .get-started-badge {
 	position: absolute;
@@ -166,7 +179,9 @@ body:not(.home) .navbar {
 }
 
 @media (max-width: 767px) {
-
+	body:not(.home) .navbar {
+		top: 30px;
+	}
 	#nav.affix {
 		top: 30px;
 	}

@@ -6,7 +6,7 @@
 	display: inline-block !important;
 }
 
-.main-hero {
+.home .main-hero {
 	background-image: url('../images/bg-convertible.jpg');
 	background-repeat: no-repeat;
 	background-position: 0 65%;
@@ -16,37 +16,37 @@
 	color: #fff;
 }
 
-.main-hero .logo img {
+.home .main-hero .logo img {
 	margin-top: 40px;
 	max-width: 100%;
 	min-width: 286px;
 }
 
-.main-hero .btn {
+.home .main-hero .btn {
 	margin-top: 48px;
 }
 
-.main-hero h1 {
+.home .main-hero h1 {
 	font-family: 'ralewaythin';
 	/*font-size: 74px;*/
 	/*font-size: 1.8em;*/
-	font-size: 4.45em;
+	/*font-size: 4.45em;*/
 }
-.main-hero h1 b {
+.home .main-hero h1 b {
 	font-family: 'ralewaymedium';
 	font-weight: normal;
 	display: block;
 }
-.main-hero p {
+.home .main-hero p {
 	/*font-size: 22px;*/
 	/*font-size: .55em;*/
 	font-size: 1.375em;
 	font-family: 'ralewaymedium';
 }
-.main-hero .get-started {
+.home .main-hero .get-started {
 	margin-top: 40px;
 }
-.main-hero .get-started p {
+.home .main-hero .get-started p {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	/*font-size: 34px;*/
 	/*font-size: .85em;*/
@@ -55,7 +55,7 @@
 	text-align: right;
 }
 
-.main-hero .get-started p b {
+.home .main-hero .get-started p b {
 	display: block;
 	/*font-size: 18px;*/
 	/*font-size: .53em;*/
@@ -89,11 +89,11 @@
 }
 .home-our-clients blockquote {
 	margin-bottom: 60px;
-	font-size: 1em;
+	/*font-size: 1em;*/
 }
 
 .home-our-clients p {
-	font-size: 1.375em;
+	/*font-size: 1.375em;*/
 }
 
 .home .our-process-container {
@@ -200,10 +200,6 @@
 
 @media (max-width: 480px) {
 
-	.home .darkpink-banner h3, .home .banner h3 {
-		font-size: 40px;
-	}
-
 	.home .matchmaker-txt, .home .people-txt {
 		font-size: 25px;
 	}
@@ -221,6 +217,17 @@
 	    margin-bottom: 30px;
     }
     .consumer-affairs h3 {
-	    margin-top: 0;
+	    font-size: 16px;
+	    /*font-size: 1.14em;*/
+	    line-height: 20px;
     }
+    .home-our-clients {
+	    background-position: 30% 0;
+	    min-height: 400px;
+    }
+	.home .main-hero {
+		height: auto;
+		min-height: 560px;
+		background-position: 60% 0;
+	}
 }

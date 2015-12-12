@@ -12,6 +12,10 @@ hr {
 	height: 0;
 }
 
+p > small {
+	font-size: 11px;
+}
+
 h1,h2,h3,h4,h5,h6,p {
 	line-height: 1.45;
 }
@@ -23,26 +27,6 @@ input.webform-submit{
 	/*font-size: 18px;*/
 	/*font-size: .53em;*/
 	font-size: 1.125em;
-}
-.form-actions{
-  margin-bottom: 4em;
-}
-
-.form-item {
-	margin: 0 !important;
-}
-
-.mobile-logo {
-    margin-top: 7px;
-    margin-left: 15px;
-    margin-bottom: 8px;
-    position: absolute;
-	z-index: 30;
-    left: 20px;
-}
-
-.mobile-logo a {
-	display: inline-block;
 }
 
 
@@ -83,6 +67,10 @@ input.webform-submit{
 
 .our-pledge h2 {
 	margin-top: 80px;
+}
+
+.our-pledge ul li {
+	padding-bottom: 10px;
 }
 
 .matchmaker {
@@ -156,16 +144,19 @@ input.webform-submit{
 
 .consumer-affairs {
 	margin-top: 100px;
-	padding: 40px 0 50px 0;
+	padding: 40px 0;
 	/*margin-bottom: 90px;*/
 }
+
 .consumer-affairs h3 {
 	font-family: 'ralewaylight';
 	/*font-size: 33px;*/
 	/*font-size: .82em;*/
 	font-size: 2.063em;
 	color: #fff;
-	margin-top: 10%;
+	margin: 0;
+	text-align: center;
+	/*margin-top: 10%;*/
 }
 
 .consumer-affairs h3 b {
@@ -174,17 +165,22 @@ input.webform-submit{
 
 .consumer-affairs img {
 	text-align: right;
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 }
 
 /* In The News Bar */
 
+.in-the-news-blocks p {
+	font-family: 'ralewaymedium';
+}
+
+.in-the-news-blocks a {
+	font-family: 'ralewaybold';
+}
 .in-the-news-blocks h2 {
 	margin-top: 80px;
 }
-.in-the-news-lead {
-	margin-bottom: 15%;
-}
+
 .news-read-arrow-left {
 	background-image: url('../images/news-arrow-left.jpg');
 	background-repeat: no-repeat;
@@ -268,26 +264,17 @@ input.webform-submit{
 	font-size: 1.125em;
 }
 
-.webform-client-form-20 .form-item, .webform-client-form-20 .form-actions {
-	display: none;
-}
+
 
 .banner h2 {
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 }
 
 .banner p {
-	margin-bottom: 40px;
+	/*margin-bottom: 40px;*/
 	font-family: 'ralewaythin';
 }
 
-/* Get to know you */
-
-.get-to-know-you {
-	background-color: #237ec2;
-	color: #fff;
-	text-align: center;
-}
 
 /* FAQ */
 .faq {
@@ -307,13 +294,20 @@ input.webform-submit{
 	margin-top: 70px;
 }
 .contact-us hr {
-	width: 7%;
+	/*width: 7%;*/
+	width: 15%;
+	border-width: 2px;
 }
 
 .contact-us h3 span {
 	font-family: "Helvetica Neue", Arial;
 	font-weight: normal;
 	display: block;
+}
+
+.contact-us p {
+	font-size: 1.5em;
+	font-family: 'ralewaymedium';
 }
 
 .contact-form {
@@ -355,6 +349,12 @@ h2 b {
 	font-family: 'ralewaymedium';
 }
 
+.main-hero p {
+	font-size: 1.375em;
+	line-height: 34px;
+	font-family: 'raleway';
+}
+
 /* Horizontal Rules */
 .hrblack {
 	border: 3px solid #000;
@@ -383,30 +383,37 @@ h2 b {
 }
 
 
-.darkpink-banner {
-	font-family: 'ralewaymedium';
-	background-color: #ca3158;
+.banner {
+	padding: 40px 0;
 	color: #fff;
 	text-align: center;
 }
 
-.darkpink-banner h3, .banner h3 {
+.banner h3 {
+	margin-top: 0;
 	font-family: 'ralewaythin';
-	/*font-size: 64px;*/
-	/*font-size: 1.6em;*/
 	font-size: 4em;
-
 }
-.darkpink-banner h3 b {
+
+.banner h3 b {
 	font-weight: normal;
 	font-family: 'ralewaymedium';
 }
 
-.darkpink-banner p, .banner p {
-	/*font-size: 22px;*/
-	/*font-size: .55em;*/
+.banner p {
+	margin-bottom: 0;
+	font-family: 'ralewaymedium';
 	font-size: 1.375em;
 }
+
+.blue-banner {
+	background-color: #237ec2;
+}
+
+.darkpink-banner {
+	background-color: #ca3158;
+}
+
 
 /* Buttons */
 
@@ -492,7 +499,8 @@ cite {
 
 .lets-chat p span {
 	/*font-size: 16px;*/
-	font-size: .65em;
+	font-family: 'ralewaymedium';
+	/*font-size: .65em;*/
 }
 .lets-chat p {
 	/*font-size: 25px;*/
@@ -507,7 +515,7 @@ cite {
 		z-index: 100;
 		top: 0;
 	}
-	.main-hero {
+	.home .main-hero {
 		padding-top: 100px;
 	}
 }
@@ -748,7 +756,7 @@ cite {
 
 /* Wide Screen */
 @media (min-width: 1230px) {
-	.main-hero, .home-our-clients {
+	.home .main-hero, .home-our-clients {
 		background-position: bottom center;
 		background-size: cover;
 	}
@@ -766,9 +774,6 @@ cite {
 	    width: 120px;
 	    margin-top: 13px;
     }
-    /*.navbar .navbar-nav li a {*/
-	    /*font-size: .6em;*/
-    /*}*/
 }
 
 
@@ -790,9 +795,6 @@ cite {
 	.modal-dialog {
 		width: 675px;
 	}
-	/*.navbar .navbar-nav li a {*/
-		/*font-size: .7em;*/
-	/*}*/
 
 }
 
@@ -805,17 +807,11 @@ cite {
 
 @media (max-width: 690px) {
 
-	.main-hero h1 {
-		font-size: 3.5em;
-	}
-	.main-hero p {
-		font-size: 1.2em;
-	}
-	.main-hero {
+	.home .main-hero {
 		min-height: 470px;
 		background-size: cover;
 	}
-	.main-hero .btn {
+	.home .main-hero .btn {
 		margin-top: 24px;
 	}
 }
@@ -836,24 +832,23 @@ cite {
     .footer {
 	    padding-bottom: 200px;
     }
+	.banner {
+		padding: 20px 0;
+	}
+
 }
 @media (min-width: 768px) {
-	/*.navbar .navbar-nav li a  {*/
-		/*font-size: 0.875em;*/
-	/*}*/
 	.navbar .navbar-nav li a {
 		font-size: .8em;
 	}
 }
 
 @media (min-width: 960px) {
-	/*.navbar .navbar-nav li a  {*/
-	/*font-size: 0.875em;*/
-	/*}*/
-	.navbar .navbar-nav li a {
+	.navbar .navbar-nav li a, #nav.affix li a {
 		font-size: 1.1em;
 	}
 }
+
 /* Other Generic Styles */
 .left-black-text p {
 	color: #000;

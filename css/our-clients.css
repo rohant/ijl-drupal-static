@@ -1,4 +1,4 @@
-.our-clients-hero {
+.our-clients .main-hero {
 	background-image: url('../images/bg-our-clients.jpg');
 	background-repeat: no-repeat;
 	background-position: 60% 50%;
@@ -6,24 +6,18 @@
 	color: #333;
 }
 
-.our-clients-hero hr {
+.our-clients .main-hero hr {
 	margin-left: 0;
 }
 
-.our-clients-hero h1 {
+.our-clients .main-hero h1 {
 	/*font-size: 72px;*/
 	font-family: 'ralewaythin';
 	margin-top: 110px;
 }
 
-.our-clients-hero h1 b{
+.our-clients .main-hero h1 b{
 	 font-family: "ralewaymedium"
-}
-.our-clients-hero p {
-	font-family: 'raleway';
-	/*font-size: 22px;*/
-	font-size: 1.375em;
-	line-height: 34px;
 }
 
 .our-clients .contact-us {
@@ -197,18 +191,18 @@
 
 /* Wide Screen */
 @media (min-width: 1230px) {
-	.our-clients-hero {
+	.our-clients .main-hero {
 		background-position: 0 50%;
 		background-size: cover;
 	}
 }
 
 @media (max-width: 690px) {
-	.our-clients-hero {
+	.our-clients .main-hero {
 		min-height: 470px;
 		background-size: cover;
 	}
-	.our-clients-hero h1 {
+	.our-clients .main-hero h1 {
 		margin-top: 100px;
 	}
 }
@@ -222,14 +216,14 @@
 	.our-clients .love-a-good-story p {
 		margin-bottom: 30px;
 	}
-	.our-clients-hero {
+	.our-clients .main-hero {
 		/*min-height: 1px;*/
 		background-position: bottom right;
 	}
 	.our-clients .darkpink-banner h3, .our-clients .banner h3 {
 		font-size: 42px;
 	}
-    .our-clients-hero .hero-col {
+    .our-clients .main-hero .hero-col {
 	    width: 100%;
 	    left: 0;
     }

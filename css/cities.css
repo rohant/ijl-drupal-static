@@ -1,4 +1,4 @@
-.cities-hero {
+.cities .main-hero {
 	background-image: url('../images/bg-cities.jpg');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -6,26 +6,20 @@
 	color: #333;
 }
 
-.cities-hero hr {
+.cities .main-hero hr {
 	margin-left: 0;
 }
 
-.cities-hero h1 {
+.cities .main-hero h1 {
 	/*font-size: 72px;*/
 	font-family: 'ralewaythin';
 	margin-top: 110px;
 }
 
-.cities-hero h1 b{
+.cities .main-hero h1 b{
 	 font-family: "ralewaymedium"
 }
 
-.cities-hero p {
-	font-family: 'raleway';
-	/*font-size: 22px;*/
-	font-size: 1.375em;
-	line-height: 34px;
-}
 
 .cities .welcome {
 	background-image: url('../images/bg-find-us.jpg');
@@ -54,7 +48,7 @@
 	margin-top: 50px;
 }
 
-.cities .welcome p:nth-of-type(1) {
+.cities .welcome p {
 	font-family: 'raleway';
 	/*font-size: 22px;*/
 	font-size: 1.375em;
@@ -69,11 +63,11 @@
 .cities .contact-us h3 {
 	margin-top: 50px;
 }
-.cities .contact-us p {
-	/*font-size: 24px;*/
-	font-size: 1.5em;
-	font-family: 'ralewaymedium';
-}
+/*.cities .contact-us p {*/
+	/*/!*font-size: 24px;*!/*/
+	/*/!*font-size: 1.5em;*!/*/
+	/*font-family: 'ralewaymedium';*/
+/*}*/
 
 .cities .contact-us h2 {
 	line-height: 1;
@@ -81,7 +75,7 @@
 
 /* Wide Screen */
 @media (min-width: 1230px) {
-	.cities-hero {
+	.cities .main-hero {
 		background-position: 0 50%;
 		background-size: cover;
 	}
@@ -100,24 +94,27 @@
 }
 
 @media (max-width: 768px) {
-	.cities-hero h1 {
+	.cities .main-hero h1 {
 		margin-top: 100px;
 	}
 }
 @media (max-width: 480px) {
-	.cities-hero {
-		background-position: 30% 100%;
+	.cities .main-hero {
+		background-position: 44% 100%;
 	}
-	.cities .welcome h3, .cities .welcome p:nth-of-type(1) {
+	.cities .welcome {
+		min-height: 470px;
+	}
+	.cities .welcome h3, .cities .welcome p {
 		margin-top: 0;
 	}
 
     .cities .contact-us {
 	    margin-top: 0;
     }
-	.cities .contact-us h2 {
-		font-size: 58px;
-	}
+	/*.cities .contact-us h2 {*/
+		/*font-size: 58px;*/
+	/*}*/
 
 }
 
