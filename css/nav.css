@@ -76,9 +76,9 @@ body:not(.home) .navbar {
 	}
 }
 
-.home #nav.affix ul li:first-child {
+/*.home #nav.affix ul li:first-child {
 	display: none;
-}
+}*/
 .navbar, #nav.affix {
 	z-index: 90;
 }
