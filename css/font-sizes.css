@@ -62,8 +62,40 @@
 	    font-size: 26px;
     }
 
-    .cities .welcome p {
+    .cities .welcome p, .our-clients .love-a-good-story p,
+    .our-clients .ijl-featured-couple p, .our-clients .ijl-featured-couple ul,
+    .our-clients .darkpink-banner p, .our-clients .banner p,
+    .in-the-news .featured-article p {
 	    font-size: 18px;
 	    line-height: 26px;
     }
+
+    .in-the-news .featured-article h2 {
+	    font-size: 32px;
+    }
+
+	.the-ijl-story .we-believe .gray-box h3 {
+		font-size: 26px;
+		line-height: 1;
+	}
+
+    .the-ijl-story .we-believe .gray-box p,
+    .our-process .step-1 p, .our-process .step-2 p,
+    .our-process .step-3 p, .our-process .step-4 p,
+    .our-process .step-5 p, .our-process .step-6 p {
+	    font-size: 16px;
+    }
+
+	.the-ijl-story .by-the-numbers h2 {
+		font-size: 46px;
+	}
+
+    .our-process .step-1 h2, .our-process .step-2 h2,
+    .our-process .step-3 h2, .our-process .step-4 h2,
+    .our-process .step-5 h2, .step-6 h2 {
+	    font-size: 32px;
+    }
+
+
+
 }

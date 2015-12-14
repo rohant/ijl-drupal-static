@@ -210,7 +210,7 @@
 @media (max-width: 480px) {
 	.our-clients .love-a-good-story h2 {
 		margin-top: 40px;
-		font-size: 52px;
+		/*font-size: 52px;*/
 		margin-bottom: 30px;
 	}
 	.our-clients .love-a-good-story p {
@@ -220,12 +220,16 @@
 		/*min-height: 1px;*/
 		background-position: bottom right;
 	}
-	.our-clients .darkpink-banner h3, .our-clients .banner h3 {
-		font-size: 42px;
-	}
+	/*.our-clients .darkpink-banner h3, .our-clients .banner h3 {*/
+		/*font-size: 42px;*/
+	/*}*/
     .our-clients .main-hero .hero-col {
 	    width: 100%;
 	    left: 0;
+    }
+
+    .our-clients .triangle-border {
+	    margin-bottom: 0;
     }
 
 }
