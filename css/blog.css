@@ -1,73 +1,90 @@
-.blog-hero {
-	background-image: url('../images/bg-blog.jpg');
+.blog .main-hero {
+	background-image: url('../images/bg-blog2.jpg');
 	background-repeat: no-repeat;
-	background-position: 0% 100%;
-	background-size: cover;
-	min-height: 476px;
-	color: #fff;
+	background-position: 50% 50%;
+	min-height: 570px;
+	color: #333;
 }
 
-.blog-hero hr {
+.blog .main-hero hr {
 	margin-left: 0;
 }
 
-.blog-hero h1 {
-	/*font-size: 72px;*/
+.blog .main-hero h1 {
 	font-family: 'ralewaythin';
 	margin-top: 80px;
 }
 
-.blog-hero p {
-    font-family: "raleway";
-    font-size: 1.375em;
-    line-height: 34px;
+
+.blog-post {
+	/*border-bottom: 2px solid #333;*/
 }
 
-.blog .list {
-    margin: 15px 0;
+.blog-post hr, .recent-blog-post hr {
+	width: 100%;
+	margin: 30px 0 20px 0;
 }
 
-.blog-head h2{
-	margin-top: 80px;
+.blog-post hr {
+	height: 2px;
 }
 
-.blog .list h2 {
-	font-family: 'ralewaythin';
-    font-size: 38px;
-    line-height: 50px;
-    margin: 10px 0;
-    text-align: left;
-    font-weight: 600;
+.recent-blog-post hr {
+	height: 1px;
+	border-width: 1px;
 }
 
-.blog .list h2 b {
-	font-family: 'ralewaymedium';
+.blog-post h4 {
+	font-size: 22px;
 }
 
-.blog .list strong{
-	padding-top: 40px;
+.blog-post h4, .recent-blog-post h4 {
+	font-family: 'ralewaysemibold';
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.blog-post h4 + span, .recent-blog-post h4 + span {
 	display: block;
 }
 
-
-.blog .list h3 {
-	font-size: 40px;
-	font-family: 'ralewaymedium';
-	margin-top: 140px;
+.blog-post h4 + span {
+	margin-bottom: 10px;
 }
 
-.blog .list .btn-primary{
- font-size: 0.75em;
+.recent-blog-post h4 {
+	font-size: 18px;
 }
 
-.blog-entry p img{
-   margin: 20px 0;
+.tags-list li {
+	display: inline-block;
 }
 
-.blog hr{
-	border: 1px solid #237ec2;
-	margin-top: 50px;
+.tags-list li:nth-child(odd):after {
+	content: '|';
+	color: #000;
+	padding: 0 10px;
 }
+
+.tags-list li:last-child:after {
+	display: none;
+}
+
+.tags-list li a {
+	color: #000;
+	text-decoration: underline;
+}
+
+.archives {
+	background-color: #acacac;
+	text-align: center;
+}
+
+.archives-list li a {
+	color: #fff;
+	text-decoration: underline;
+}
+
 
 @media (max-width: 480px) {
 	.blog-hero {

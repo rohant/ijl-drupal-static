@@ -32,6 +32,11 @@ body:not(.home) .navbar {
 	vertical-align: middle;
 }
 
+.navbar .navbar-nav li.active a {
+	background-color: transparent;
+	font-family: 'ralewaybold';
+}
+
 #navbar.navbar-collapse.collapse.in {
 	margin: 0;
 }
