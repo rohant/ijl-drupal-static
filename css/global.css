@@ -671,11 +671,13 @@ cite {
 }
 .footer-col:nth-of-type(3) {
 	border-right: 0;
-	font-family: "Helvetica Neue", Arial;
+	/*font-family: "Helvetica Neue", Arial;*/
+	font-family: "ralewaymedium";
 }
 .footer-col:nth-of-type(3) h5,
 .footer-col:nth-of-type(3) h6 {
-	font-family: "Helvetica Neue", Arial;
+	/*font-family: "Helvetica Neue", Arial;*/
+	font-family: "ralewaymedium";
 	font-weight: normal;
 	/*font-size: 26px;*/
 }

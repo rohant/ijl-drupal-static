@@ -67,7 +67,7 @@
 ------------------------------------------ */
 
 .triangle-border.left {
-	margin-left:30px;
+	margin-left:5px;
 }
 
 /* Variant : for right positioned triangle
@@ -143,7 +143,6 @@
 
 .ijl-featured-couple p, .ijl-featured-couple ul {
 	font-size: 1.056em;
-	line-height: 1.16em;
 }
 
 .ijl-featured-couple .triangle-border {
@@ -166,7 +165,7 @@
 
 .ijl-featured-couple p {
 	font-family: 'ralewaymedium';
-	margin-top: 40px;
+	margin-top: 15px;
 }
 .ijl-featured-couple p strong {
 	font-weight: normal;
@@ -194,6 +193,9 @@
 	.our-clients .main-hero {
 		background-position: 0 50%;
 		background-size: cover;
+	}
+	.triangle-border.left {
+	    margin-left:-50px;
 	}
 }
 
