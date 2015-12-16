@@ -45,6 +45,11 @@
 	font-size: 22px;
 }
 
+.blog-post h5 {
+	font-size: 20px;
+	font-family: 'ralewaysemibold';
+}
+
 .blog-post h4, .recent-blog-post h4 {
 	font-family: 'ralewaysemibold';
 	margin-top: 0;
@@ -194,7 +199,6 @@
 .txt-optin {
 	border: 1px solid #f68d4f;
 	display: inline-block;
-
 	width: 50%;
 }
 
@@ -204,7 +208,27 @@
 
 .btn-optin {
 	display: inline-block;
+}
 
+.blog-template p {
+	font-size: 20px;
+}
+
+.share-on .social-list {
+	padding-top: 0;
+	margin-bottom: 20px;
+}
+
+.share-on .social-list img {
+	width: 30px;
+}
+
+.share-on p {
+	margin: 0 0 0 5px;
+ }
+
+.blog .contact-us {
+	margin-top: 20px;
 }
 
 @media (max-width: 480px) {
