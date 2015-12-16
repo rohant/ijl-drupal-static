@@ -143,10 +143,10 @@
     .in-the-news .featured-article {
 	    padding-top: 0;
     }
-    .in-the-news .featured-article h2 {
-	    line-height: 1.3em;
-    }
-    .in-the-news .contact-us h2 {
-	    font-size: 4em;
-    }
+    /*.in-the-news .featured-article h2 {*/
+	    /*line-height: 1.3em;*/
+    /*}*/
+    /*.in-the-news .contact-us h2 {*/
+	    /*font-size: 4em;*/
+    /*}*/
 }
