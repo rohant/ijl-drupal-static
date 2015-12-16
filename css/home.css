@@ -198,6 +198,9 @@
 	font-size: 1.125em;
 }
 
+.container .sectype p {
+	font-size: 1.45em;
+}
 
 @media (max-width: 480px) {
 
