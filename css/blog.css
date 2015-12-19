@@ -74,7 +74,11 @@
 .blog-post p {
 	font-family: "raleway";
 	font-size: 1.056em;
+<<<<<<< HEAD
 	line-height: 1.7em;
+=======
+	line-height: 1.85em;
+>>>>>>> master
 }
 
 .blog-post a, .recent-blog-post a {
@@ -221,7 +225,11 @@
 
 .blog-template p {
     font-size: 1.056em;
+<<<<<<< HEAD
     line-height: 1.7em;
+=======
+    line-height: 1.85em;
+>>>>>>> master
 }
 
 .share-on .social-list {
