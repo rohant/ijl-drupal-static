@@ -66,18 +66,13 @@
 
 
 .ijl-difference {
-	margin-bottom: 0px;
+	margin-bottom: 40px;
 }
 
-.ijl-difference-container {
+.ijl-difference-container, .our-process-container {
 	padding-left: 2em;
 	padding-right: 2em;
 }
-
-/*.our-process-container {*/
-	/*padding-left: 0;*/
-	/*padding-right: 0;*/
-/*}*/
 
 .home-our-clients {
 	background-image: url('../images/bg-home-our-clients.jpg');
@@ -95,11 +90,9 @@
 }
 .home-our-clients blockquote {
 	margin-bottom: 60px;
-	/*font-size: 1em;*/
 }
-
-.home-our-clients p {
-	/*font-size: 1.375em;*/
+.home-our-clients blockquote p {
+	color: #ffffff;
 }
 
 .home .our-process-container {
@@ -118,8 +111,7 @@
 .home .our-process-container h4 {
 	/*font-size: 41px;*/
 	/*font-size: 1.02em;*/
-	/*font-size: 2.563em;*/
-	font-size: 2.3em;
+	font-size: 2.563em;
 	font-family: 'ralewaymedium';
 	text-transform: uppercase;
 	/*margin-top: 160px;*/
@@ -133,7 +125,7 @@
 	/*font-size: 2em;*/
 	/*font-size: 1.8em;*/
 	/*font-size: 4.8em;*/
-	font-size: 4.2em;
+	font-size: 3.8em;
 	line-height: 1;
 	font-family: 'ralewaylight';
 	color: #ca3158;
@@ -145,22 +137,19 @@
 	border-left: 1px solid #555;
 	width: 10px;
 	/*height: 420px;*/
-	height: 400px;
+	height: 500px;
 	color: #555;
 	position: absolute;
-	z-index: 10;
 	left: 0;
 	/*top: 16%;*/
-	top: 10%;
+	top: 9%;
 }
 #our-process-carousel .carousel-inner {
-	background-image: url('../images/bg-generic-badge.png');
+	background-image: url('../images/bg-generic-badge.jpg');
 	background-repeat: no-repeat;
-	background-position: top center;
+	background-position: center;
 	/*height: 623px;*/
-	/*height: 580px;*/
-	/*height: 560px;*/
-	height: 500px;
+	height: 580px;
 	background-size: contain;
 }
 
@@ -206,6 +195,10 @@
 	/*font-size: 18px;*/
 	/*font-size: .53em;*/
 	font-size: 1.125em;
+}
+
+.ijl-difference p b{
+	font-family: 'ralewaybold';
 }
 
 .container .sectype p {

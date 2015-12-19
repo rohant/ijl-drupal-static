@@ -2,7 +2,8 @@
 	background-image: url('../images/bg-blog2.jpg');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	min-height: 570px;
+	background-size: cover;
+	min-height: 476px;
 	color: #333;
 }
 
@@ -112,7 +113,7 @@
 }
 
 .recent-blog-post h4 {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 22px;
 }
 
@@ -137,7 +138,7 @@
 .tags-list li a {
 	color: #000;
 	text-decoration: underline;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .archives {
@@ -162,7 +163,7 @@
 	color: #fff;
 	text-decoration: underline;
 	font-family: 'ralewaymedium';
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .get-connected {

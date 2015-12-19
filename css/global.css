@@ -587,7 +587,8 @@ cite {
 	font-family: 'ralewaymedium';
 	/*font-size: 66px;*/
 	/*font-size: 1.65em;*/
-	font-size: 4.125em
+	/*font-size: 4.125em;*/
+	font-size: 3.5em;
 }
 
 .dating-trends p b {
@@ -619,6 +620,13 @@ cite {
 .footer .select-your-city .glyphicon {
 	color: #237ec2;
 }
+.footer a {
+	font-family: "Helvetica Neue", Arial;
+	font-style: italic;
+	color: inherit;
+	font-size: .65em;
+}
+
 .footer h5, .footer h6 {
 	font-family: 'raleway';
 	/*font-size: 26px;*/
@@ -635,12 +643,6 @@ cite {
 	line-height: 1.45;
 	text-transform: none;
 	display: block;
-}
-.footer a {
-	font-family: "Helvetica Neue", Arial;
-	font-style: italic;
-	color: inherit;
-	font-size: .65em;
 }
 
 .footer-links {
