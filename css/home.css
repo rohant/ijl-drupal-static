@@ -120,12 +120,7 @@
 .home .our-process-container h4 {
 	/*font-size: 41px;*/
 	/*font-size: 1.02em;*/
-<<<<<<< HEAD
-	/*font-size: 2.563em;*/
-	/*font-size: 2.3em;*/
-=======
-	font-size: 2.563em;
->>>>>>> master
+
 	font-family: 'ralewaymedium';
 	font-size: 1.2em;
 	text-transform: uppercase;
@@ -141,12 +136,9 @@
 	/*font-size: 2em;*/
 	/*font-size: 1.8em;*/
 	/*font-size: 4.8em;*/
-<<<<<<< HEAD
-	/*font-size: 4.2em;*/
+
 	font-size: 2.58em;
-=======
-	font-size: 3.8em;
->>>>>>> master
+
 	line-height: 1;
 	font-family: 'ralewaylight';
 	color: #ca3158;
@@ -158,11 +150,9 @@
 	border-left: 1px solid #555;
 	width: 10px;
 	/*height: 420px;*/
-<<<<<<< HEAD
+
 	height: 430px;
-=======
-	height: 500px;
->>>>>>> master
+
 	color: #555;
 	position: absolute;
 	left: 0;
@@ -177,14 +167,9 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	/*height: 623px;*/
-<<<<<<< HEAD
-	/*height: 580px;*/
-	/*height: 560px;*/
-	/*height: 500px;*/
+
 	height: 440px;
-=======
-	height: 580px;
->>>>>>> master
+
 	background-size: contain;
 }
 
