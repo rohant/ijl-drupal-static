@@ -21,6 +21,10 @@
 	font-family: 'ralewaymedium';
 }
 
+.the-ijl-story .stats{
+	opacity: 0;
+}
+
 .the-ijl-story .we-believe {
 	margin-bottom: 80px;
 }
@@ -28,6 +32,7 @@
 	text-align: center;
 	margin-bottom: 40px;
 }
+
 .the-ijl-story .we-believe .photo,
 .the-ijl-story .we-believe .gray-box {
 	margin: 0 0 30px 0;
@@ -35,7 +40,10 @@
 }
 
 .the-ijl-story .we-believe .gray-box {
-	background-color: #979797;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	background-color: #000000;
 	color: #fff;
 	text-align: center;
 	padding: 40px 10px;

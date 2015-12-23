@@ -67,6 +67,7 @@
 }
 
 .home .main-hero .get-started p b {
+	display: block;
 	/*font-size: 18px;*/
 	/*font-size: .53em;*/
 	/*font-size: 1.125em;
@@ -149,10 +150,7 @@
 	border-left: 1px solid #555;
 	width: 10px;
 	/*height: 420px;*/
-
-
 	height: 430px;
-
 	color: #555;
 	position: absolute;
 	left: 0;
@@ -167,9 +165,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	/*height: 623px;*/
-
 	height: 440px;
-
 	background-size: contain;
 }
 
