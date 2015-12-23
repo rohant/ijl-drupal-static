@@ -121,11 +121,19 @@
 	/*font-size: 41px;*/
 	/*font-size: 1.02em;*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-size: 2.563em;
 =======
 	/*font-size: 2.563em;*/
 	/*font-size: 2.3em;*/
 >>>>>>> d0be52dbb913d4b27ce6fa391be9a4b2478e5893
+=======
+	/*font-size: 2.563em;*/
+	/*font-size: 2.3em;*/
+=======
+	font-size: 2.563em;
+>>>>>>> master
+>>>>>>> 1d5b65b320b20a7b3d07be5ecd86f9475b05db14
 	font-family: 'ralewaymedium';
 	font-size: 1.2em;
 	text-transform: uppercase;
@@ -142,11 +150,19 @@
 	/*font-size: 1.8em;*/
 	/*font-size: 4.8em;*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-size: 3.8em;
 =======
 	/*font-size: 4.2em;*/
 	font-size: 2.58em;
 >>>>>>> d0be52dbb913d4b27ce6fa391be9a4b2478e5893
+=======
+	/*font-size: 4.2em;*/
+	font-size: 2.58em;
+=======
+	font-size: 3.8em;
+>>>>>>> master
+>>>>>>> 1d5b65b320b20a7b3d07be5ecd86f9475b05db14
 	line-height: 1;
 	font-family: 'ralewaylight';
 	color: #ca3158;
@@ -159,10 +175,17 @@
 	width: 10px;
 	/*height: 420px;*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 	height: 500px;
 =======
 	height: 430px;
 >>>>>>> d0be52dbb913d4b27ce6fa391be9a4b2478e5893
+=======
+	height: 430px;
+=======
+	height: 500px;
+>>>>>>> master
+>>>>>>> 1d5b65b320b20a7b3d07be5ecd86f9475b05db14
 	color: #555;
 	position: absolute;
 	left: 0;
@@ -178,13 +201,22 @@
 	background-position: center;
 	/*height: 623px;*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 	height: 580px;
 =======
+=======
+>>>>>>> 1d5b65b320b20a7b3d07be5ecd86f9475b05db14
 	/*height: 580px;*/
 	/*height: 560px;*/
 	/*height: 500px;*/
 	height: 440px;
+<<<<<<< HEAD
 >>>>>>> d0be52dbb913d4b27ce6fa391be9a4b2478e5893
+=======
+=======
+	height: 580px;
+>>>>>>> master
+>>>>>>> 1d5b65b320b20a7b3d07be5ecd86f9475b05db14
 	background-size: contain;
 }
 
