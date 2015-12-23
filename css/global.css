@@ -527,7 +527,7 @@ cite {
 
 .carousel-indicators {
 	/*bottom: 130px;*/
-	bottom: 2.1em;
+	bottom: 4em;
 }
 
 .carousel-indicators li {
@@ -679,8 +679,10 @@ cite {
 .footer-col:nth-of-type(3) h5,
 .footer-col:nth-of-type(3) h6 {
 	/*font-family: "Helvetica Neue", Arial;*/
-	font-family: "ralewaymedium";
-	font-weight: normal;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.41em;
+	font-weight: 600;
+	text-transform: uppercase;
 	/*font-size: 26px;*/
 }
 .footer-col:nth-of-type(3) h6 {
@@ -760,10 +762,11 @@ cite {
 
 /* Wide Screen */
 @media (min-width: 1230px) {
-	.home .main-hero, .home-our-clients {
+	.home-our-clients {
 		background-position: bottom center;
 		background-size: cover;
 	}
+
 }
 
 @media (max-width: 1104px) {
@@ -798,6 +801,10 @@ cite {
 @media (min-width: 768px) {
 	.modal-dialog {
 		width: 675px;
+	}
+	.home .main-hero {
+		background-position: 0 0;
+		background-size: cover;
 	}
 
 }

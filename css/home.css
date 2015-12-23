@@ -17,17 +17,19 @@
 }
 
 .home .main-hero .logo img {
-	margin-top: 40px;
+	/*margin-top: 40px;*/
+	margin-top: 20px;
 	max-width: 100%;
-	min-width: 286px;
+	/*min-width: 286px;*/
 }
 
 .home .main-hero .btn {
-	margin-top: 48px;
+	margin-top: 16px;
 }
 
 .home .main-hero h1 {
 	font-family: 'ralewaythin';
+	margin-top: 40px;
 	/*font-size: 74px;*/
 	/*font-size: 1.8em;*/
 	/*font-size: 4.45em;*/
@@ -46,22 +48,29 @@
 .home .main-hero .get-started {
 	margin-top: 40px;
 }
+
+.get-started-box {
+	border: 2px solid #fff;
+	padding: 5px 0;
+
+}
 .home .main-hero .get-started p {
 	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-	font-family: "ralewaymedium";
+	font-family: 'Source Sans Pro', sans-serif;
 	/*font-size: 34px;*/
 	/*font-size: .85em;*/
-	font-size: 2.125em;
+	font-size: 1.41em;
+	font-weight: 600;
 	text-transform: uppercase;
-	text-align: right;
+	text-align: center;
+	margin-bottom: 0;
 }
 
 .home .main-hero .get-started p b {
-	display: block;
 	/*font-size: 18px;*/
 	/*font-size: .53em;*/
-	font-size: 1.125em;
-	font-weight: bold;
+	/*font-size: 1.125em;
+	font-weight: bold;*/
 }
 
 
@@ -111,13 +120,20 @@
 .home .our-process-container h4 {
 	/*font-size: 41px;*/
 	/*font-size: 1.02em;*/
+<<<<<<< HEAD
 	font-size: 2.563em;
+=======
+	/*font-size: 2.563em;*/
+	/*font-size: 2.3em;*/
+>>>>>>> d0be52dbb913d4b27ce6fa391be9a4b2478e5893
 	font-family: 'ralewaymedium';
+	font-size: 1.2em;
 	text-transform: uppercase;
 	/*margin-top: 160px;*/
 	/*margin-top: 4.3em;*/
-	margin-top: 2em;
+	/*margin-top: 2em;*/
 	margin-bottom: 0;
+	margin-top: 7em;
 }
 
 .home .our-process-container h3 {
@@ -125,7 +141,12 @@
 	/*font-size: 2em;*/
 	/*font-size: 1.8em;*/
 	/*font-size: 4.8em;*/
+<<<<<<< HEAD
 	font-size: 3.8em;
+=======
+	/*font-size: 4.2em;*/
+	font-size: 2.58em;
+>>>>>>> d0be52dbb913d4b27ce6fa391be9a4b2478e5893
 	line-height: 1;
 	font-family: 'ralewaylight';
 	color: #ca3158;
@@ -137,25 +158,40 @@
 	border-left: 1px solid #555;
 	width: 10px;
 	/*height: 420px;*/
+<<<<<<< HEAD
 	height: 500px;
+=======
+	height: 430px;
+>>>>>>> d0be52dbb913d4b27ce6fa391be9a4b2478e5893
 	color: #555;
 	position: absolute;
 	left: 0;
 	/*top: 16%;*/
 	top: 9%;
 }
+#our-process-carousel {
+	margin-top: 3em;
+}
 #our-process-carousel .carousel-inner {
 	background-image: url('../images/bg-generic-badge.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	/*height: 623px;*/
+<<<<<<< HEAD
 	height: 580px;
+=======
+	/*height: 580px;*/
+	/*height: 560px;*/
+	/*height: 500px;*/
+	height: 440px;
+>>>>>>> d0be52dbb913d4b27ce6fa391be9a4b2478e5893
 	background-size: contain;
 }
 
 .ijl-difference h2 {
 	/*margin-top: 100px;*/
 	margin-top: .5em;
+	font-size: 4.32em;
 }
 
 .home .darkpink-banner p, .home .banner p {
