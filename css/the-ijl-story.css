@@ -40,11 +40,15 @@
 	text-align: center;
 }
 
+.the-ijl-story .we-believe .photo {
+	margin: 15px;
+}
 
-.the-ijl-story .we-believe .photo,
-.the-ijl-story .we-believe .gray-box {
-	margin: 0 0 30px 0;
-	min-height: 340px;
+.the-ijl-story .we-believe .photo img {
+	max-width: none;
+	max-height: none;
+	height: 100%;
+	width: 100%;
 }
 
 .the-ijl-story .we-believe .gray-box {
@@ -55,7 +59,8 @@
 	color: #fff;
 	text-align: center;
 	padding: 40px 10px;
-	max-width: 344px;
+	height: 100%;
+	width: 100%;
 }
 
 .the-ijl-story .we-believe .gray-box h3 {
@@ -64,6 +69,7 @@
 	line-height: 38px;
 	font-family: 'ralewaylight';
 }
+
 .the-ijl-story .we-believe .gray-box h3 b {
 	display: block;
 	font-family: 'ralewaymedium';

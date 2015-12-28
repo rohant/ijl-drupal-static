@@ -873,7 +873,9 @@ cite {
     margin-bottom: 1.5em;
     text-align: center;
 }
-
 .marginbottom30 {
 	margin-bottom: 30px
+}
+.nopadding{
+	padding: 0 !important;
 }

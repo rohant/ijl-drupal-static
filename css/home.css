@@ -149,13 +149,11 @@
 	content: '';
 	border-left: 1px solid #555;
 	width: 10px;
-	/*height: 420px;*/
-	height: 430px;
+	height: 490px;
 	color: #555;
 	position: absolute;
 	left: 0;
-	/*top: 16%;*/
-	top: 9%;
+	top: 7%;
 }
 #our-process-carousel {
 	margin-top: 3em;
