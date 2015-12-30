@@ -16,11 +16,6 @@
 	margin-top: 80px;
 }
 
-
-.blog-post {
-	/*border-bottom: 2px solid #333;*/
-}
-
 .blog-post hr, .recent-blog-post hr {
 	width: 100%;
 	margin: 30px 0 20px 0;
@@ -42,8 +37,14 @@
 	margin-top: 10px;
 }
 
+.recent-blog-post a {
+	text-decoration: none;
+	color: #333;
+}
 
-
+.recent-blog-post a:hover {
+	text-decoration: underline;
+}
 .blog-post h5 {
 	font-size: 16px;
 	font-family: 'ralewaysemibold';
@@ -78,7 +79,7 @@
 	line-height: 1.85em;
 }
 
-.blog-post a, .recent-blog-post a {
+.blog-post a {
 	color: #333;
 	text-decoration: underline;
 }
