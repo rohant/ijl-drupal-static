@@ -865,12 +865,17 @@ cite {
 	color: #000;
 	text-align: left;
 }
+.page-intro-text{
+	margin-top: 35px;
+}
 .page-intro-text p {
     font-size: 1.5em;
     margin-bottom: 1.5em;
     text-align: center;
 }
-
 .marginbottom30 {
 	margin-bottom: 30px
+}
+.nopadding{
+	padding: 0 !important;
 }

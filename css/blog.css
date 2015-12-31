@@ -1,7 +1,7 @@
 .blog .main-hero {
-	background-image: url('../images/bg-blog2.jpg');
+	background-image: url('../images/bg-blog.jpg');
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: 50% 10%;
 	background-size: cover;
 	min-height: 476px;
 	color: #333;
@@ -14,11 +14,6 @@
 .blog .main-hero h1 {
 	font-family: 'ralewaythin';
 	margin-top: 80px;
-}
-
-
-.blog-post {
-	/*border-bottom: 2px solid #333;*/
 }
 
 .blog-post hr, .recent-blog-post hr {
@@ -42,8 +37,14 @@
 	margin-top: 10px;
 }
 
+.recent-blog-post a {
+	text-decoration: none;
+	color: #333;
+}
 
-
+.recent-blog-post a:hover {
+	text-decoration: underline;
+}
 .blog-post h5 {
 	font-size: 16px;
 	font-family: 'ralewaysemibold';
@@ -75,14 +76,10 @@
 .blog-post p {
 	font-family: "raleway";
 	font-size: 1.056em;
-<<<<<<< HEAD
-	line-height: 1.7em;
-=======
 	line-height: 1.85em;
->>>>>>> master
 }
 
-.blog-post a, .recent-blog-post a {
+.blog-post a {
 	color: #333;
 	text-decoration: underline;
 }
@@ -167,7 +164,6 @@
 }
 
 .get-connected {
-	border: 1px solid #000;
 	text-align: center;
 }
 
@@ -226,11 +222,7 @@
 
 .blog-template p {
     font-size: 1.056em;
-<<<<<<< HEAD
-    line-height: 1.7em;
-=======
-    line-height: 1.85em;
->>>>>>> master
+  line-height: 1.85em;
 }
 
 .share-on .social-list {

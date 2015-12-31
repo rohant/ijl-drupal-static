@@ -21,6 +21,10 @@
 	font-family: 'ralewaymedium';
 }
 
+.the-ijl-story .stats{
+	opacity: 0;
+}
+
 .the-ijl-story .we-believe {
 	margin-bottom: 80px;
 }
@@ -28,27 +32,44 @@
 	text-align: center;
 	margin-bottom: 40px;
 }
-.the-ijl-story .we-believe .photo,
-.the-ijl-story .we-believe .gray-box {
-	margin: 0 0 30px 0;
-	min-height: 340px;
+
+.the-ijl-story .we-believe h3 {
+	font-family: "raleway";
+	font-size: 2.125em;
+	font-weight: normal;
+	text-align: center;
+}
+
+.the-ijl-story .we-believe .photo {
+	margin: 15px;
+}
+
+.the-ijl-story .we-believe .photo img {
+	max-width: none;
+	max-height: none;
+	height: 100%;
+	width: 100%;
 }
 
 .the-ijl-story .we-believe .gray-box {
-	background-color: #979797;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	background-color: #000000;
 	color: #fff;
 	text-align: center;
 	padding: 40px 10px;
-	max-width: 344px;
+	height: 100%;
+	width: 100%;
 }
 
 .the-ijl-story .we-believe .gray-box h3 {
 	margin-top: 0;
-	/*font-size: 42px;*/
 	font-size: 2.625em;
 	line-height: 38px;
 	font-family: 'ralewaylight';
 }
+
 .the-ijl-story .we-believe .gray-box h3 b {
 	display: block;
 	font-family: 'ralewaymedium';
@@ -63,15 +84,28 @@
 }
 
 .the-ijl-story .by-the-numbers {
-	background-color: #237ec2;
-	color: #fff;
-	text-align: center;
+	background-color: #f5f5f5;
+	padding: 60px 0;
+	box-shadow: 10px 5px 5px #888888;
 }
 
-.the-ijl-story .by-the-numbers h2 {
-	/*font-size: 62px;*/
-	font-size: 3.875em;
-	margin: 40px 0;
+.the-ijl-story .by-the-numbers ul{
+	margin: 0;
+	padding: 0;
+}
+
+.the-ijl-story .by-the-numbers li{
+	line-height: 28px;
+	list-style: none;
+}
+
+.the-ijl-story .by-the-numbers p {
+	line-height: 28px;
+	padding-top: 30px;
+}
+
+.the-ijl-story .by-the-numbers p b {
+	color: #cc3366;
 }
 
 .the-ijl-story .by-the-numbers .col {
@@ -83,16 +117,16 @@
 .the-ijl-story .by-the-numbers h3 b{
 	display: block;
 	font-family: 'ralewaymedium';
-	/*font-size: 40px;*/
 	font-size: 2.5em;
 }
 
 .the-ijl-story .by-the-numbers h3 {
-	/*font-size: 16px;*/
-	font-size: 1em;
-	line-height: 36px;
-	font-family: 'ralewaythin';
-	text-transform: uppercase;
+	font-size: 1.25em;
+	line-height: 46px;
+	font-family: 'ralewaymedium';
+	margin: 0;
+	color: #cc3366;
+	font-weight: 600;
 }
 
 .the-ijl-story .contact-us {
