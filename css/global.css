@@ -516,8 +516,11 @@ cite {
 		top: 0;
 	}
 	.home .main-hero {
-		padding-top: 100px;
+		/*padding-top: 100px;*/
 	}
+    .main-hero {
+	    margin-top: 100px;
+    }
 }
 
 
