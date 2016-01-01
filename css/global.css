@@ -277,10 +277,6 @@ input.webform-submit{
 
 
 /* FAQ */
-.faq {
-	margin-top: 70px;
-}
-
 .faq strong{
 	padding-top: 40px;
 	display: block;
@@ -878,4 +874,7 @@ cite {
 }
 .nopadding{
 	padding: 0 !important;
+}
+.margintop70 {
+	margin-top: 70px;
 }
