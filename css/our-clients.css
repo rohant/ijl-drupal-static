@@ -47,6 +47,10 @@
 	padding-top: 45px;
 }
 
+.love-a-good-story ul.pager {
+	display: none;
+}
+
 /* THE SPEECH BUBBLE
 ------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -175,6 +179,8 @@
 .ijl-featured-couple p strong {
 	font-weight: normal;
 	font-family: 'ralewaybold';
+	display: block;
+	color: #ca3158;
 }
 
 .ijl-featured-couple p span {
@@ -191,6 +197,51 @@
 	font-size: 24px;
 	font-family: 'ralewaymedium';
 	margin-top: 20px;
+}
+
+.our-clients .testimonial{
+	position: relative;
+}
+
+.our-clients .testimonial .tip {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #bbbbbb;
+	border-radius: 6px;
+	color: #333333;
+	font-family: 'raleway';
+	font-size: 0.5em;
+	font-weight: normal;
+	left: 85%;
+	line-height: 18px;
+	padding: 6px 10px;
+	position: absolute;
+	text-align: left;
+	top: 10%;
+	width: 100%;
+	min-width: 185px;
+	z-index: 100;
+	display: none;
+}
+
+.our-clients .testimonial .tip i {
+	background: url('../images/3angle.png') no-repeat;
+	height: 20px;
+	left: -18px;
+	position: absolute;
+	top: 50px;
+	width: 20px;
+	z-index: 110;
+}
+
+.our-clients .all{
+	padding: 30px 0;
+}
+.our-clients .all:nth-of-type(2n+1) {
+    background-color: #f2f2f2;
+}
+.our-clients .all p{
+	font-size: 1.056em;
+	line-height: 1.45;
 }
 
 /* Wide Screen */

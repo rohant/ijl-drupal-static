@@ -73,7 +73,7 @@
 	display: block;
 }
 
-.blog-post p {
+.blog-post p, .blog-post li {
 	font-family: "raleway";
 	font-size: 1.056em;
 	line-height: 1.85em;
@@ -116,6 +116,10 @@
 
 .recent-blog-post span {
 	font-size: 14px;
+}
+
+.recent-blog-post .blog-title{
+	display: table-cell;
 }
 
 .tags-list li {
