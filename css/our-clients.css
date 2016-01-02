@@ -255,6 +255,25 @@
 	}
 }
 
+@media (max-width: 767px) {
+	.love-a-good-story .col-1, .love-a-good-story .col-2,
+	.love-a-good-story .col-3, .love-a-good-story .col-4,
+	.love-a-good-story .col-5 {
+		padding-top: 0px;
+	}
+
+	.triangle-border.left:before {
+	    top: -30px;
+	    left: 100px;
+	    transform: rotate(90deg);
+	}
+	.triangle-border.left:after {
+	    top: -19px;
+	    left: 104px;
+	    transform: rotate(90deg);
+	}
+}
+
 @media (max-width: 690px) {
 	.our-clients .main-hero {
 		min-height: 470px;
@@ -289,5 +308,7 @@
     .our-clients .triangle-border {
 	    margin-bottom: 0;
     }
+	
+	
 
 }
