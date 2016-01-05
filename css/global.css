@@ -29,7 +29,6 @@ input.webform-submit{
 	font-size: 1.125em;
 }
 
-
 .signoff {
 	font-family: 'freshscript';
 	/*font-size: 70px;*/
@@ -813,6 +812,16 @@ cite {
 	.mobile-logo {
 		width: 167px;
 	}
+	.img-box {
+		background-position: top center !important;
+		background-size: contain !important;
+		min-height: 1px !important;
+	}
+
+	.txt-box {
+		background-color: #ccc;
+	}
+
 }
 
 
@@ -853,6 +862,9 @@ cite {
 		font-size: .8em;
 	}
 }
+
+
+
 
 @media (min-width: 960px) {
 	.navbar .navbar-nav li a, #nav.affix li a {
