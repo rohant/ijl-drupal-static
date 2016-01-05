@@ -13,7 +13,7 @@ $(function() {
     if($(this).css('opacity') > 0) {
       $(this).animate({opacity: 0}, {duration: 'fast'});
     }else {
-      $(this).animate({opacity: 0.75}, {duration: 'fast'});
+      $(this).animate({opacity: 0.65}, {duration: 'fast'});
     }
   });
 });
