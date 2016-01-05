@@ -24,15 +24,46 @@ input.webform-submit{
 }
 
 .btn-primary {
-	/*font-size: 18px;*/
-	/*font-size: .53em;*/
 	font-size: 1.125em;
 }
 
+.dropdown-menu {
+	width: 375px;
+}
+.dropdown-menu li, .dropdown-menu li a{
+	font-family: 'ralewaymedium';
+	font-size: 0.975em;
+	color: #000;
+	font-style: normal;
+}
 
+.dropdown-menu li{
+	list-style: none;
+}
+.dropdown-menu li a{
+	display: block;
+}
+.dropdown-menu li.col-mega-dd{
+	float: left;
+	position: relative;
+	width: 33%;
+}
+.dropdown-menu li.col-mega-dd ul{
+	padding-left: 4px;
+	height: 250px;
+	overflow-y: auto;
+	border-left: 1px solid #eeeeee;
+}
+
+.dropdown-menu li.col-mega-dd:nth-child(4){
+	clear: both;
+}
+.dropdown-menu li.col-mega-dd span{
+	background-color: #efefef;
+	padding:3px; 
+}
 .signoff {
 	font-family: 'freshscript';
-	/*font-size: 70px;*/
 	font-size: 4.375em;
 	text-align: center;
 	color: #237ec2;
@@ -702,25 +733,27 @@ cite {
 }
 .our-clients-modal h4 {
 	color: #ca3158;
-	font-size: 32px;
+	font-size: 14px;
 	font-family: 'ralewaylight';
-	margin-top: 40px;
+	line-height: 1.05;
 }
 
 .our-clients-modal h4 b {
 	font-family: 'ralewaymedium';
+	display: block;
 }
 
 .our-clients-modal h5 {
-	font-size: 18px;
+	font-size: 15px;
 	color: #ca3158;
-	margin-top: 30px;
+	line-height: 1.05;
 }
 
 .our-clients-modal ul {
-	font-size: 18px;
+	font-size: 11px;
 	font-family: 'ralewaylight';
-	padding-left: 20px;
+	padding-left: 10px;
+	line-height: 1.25;
 }
 
 .our-clients-modal ul b {
@@ -733,6 +766,10 @@ cite {
 
 .our-clients-modal ul b {
 	font-family: 'ralewaymedium';
+}
+
+.our-clients-modal p {
+	text-align: left !important;
 }
 
 .our-clients-modal .modal-pic1 {

@@ -26,7 +26,7 @@
 
 .home .main-hero h1 {
 	font-family: 'ralewaythin';
-	margin-top: 135px;
+	margin-top: 70px;
 }
 .home .main-hero h1 b {
 	font-family: 'ralewaymedium';
@@ -171,6 +171,12 @@
 @media (min-width: 1280px) {
 	.home .matchmaker-txt, .home .people-txt {
 		font-size: 28px;
+	}
+}
+
+@media (min-width: 1366px) {
+	.home .main-hero h1 {
+		margin-top: 135px;
 	}
 }
 @media (max-width: 768px) {
