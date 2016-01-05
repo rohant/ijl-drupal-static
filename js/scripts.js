@@ -33,5 +33,3 @@ if ($(window).width() < 768) {
 	    interval: false
 	});
 }
-
-

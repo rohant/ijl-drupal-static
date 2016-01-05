@@ -851,15 +851,37 @@ cite {
 		width: 167px;
 	}
 	.img-box {
-		background-position: top center !important;
-		background-size: contain !important;
+		background-image: none !important;
+		background-color: #ccc;
+		margin-bottom: 0 !important;
+	}
+
+	.img-box-hero {
+		margin-top: 186px;
+	} 
+
+	body:not(.home) .main-hero {
+		margin-top: 0;
+		min-height: 1px !important;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	body:not(.home) .main-hero h1 {
+		margin-top: 0 !important;
+	}
+	body:not(.home) .main-hero p {
+		margin-bottom: 0 !important;
+	}
+	.our-process .step-2, .our-process .step-4 {
 		min-height: 1px !important;
 	}
-
-	.txt-box {
-		background-color: #ccc;
+	.our-process .step-2, .our-process .step-4 {
+		padding-bottom: 20px !important;
 	}
-
+	#our-process-carousel {
+		margin-top: 0 !important;
+	}
 }
 
 
@@ -910,7 +932,7 @@ cite {
 	}
 }
 
-/* Other Generic Styles */
+/* Other Generic Styles 
 .left-black-text p {
 	color: #000;
 	text-align: left;
