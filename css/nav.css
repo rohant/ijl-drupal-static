@@ -1,4 +1,40 @@
 
+.mobile-nav-buttons {
+	position: fixed;
+	width: 100%;
+	top: 55px;
+	z-index: 100;
+	padding: 20px 0 5px 0;
+	background-color: #fff;
+	/*background-image: url("../images/bg-transparent-nav.png");*/
+	/*background-repeat: repeat;*/
+}
+
+.mobile-nav-buttons span, .mobile-nav-buttons a {
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #333;
+	cursor: pointer;
+}
+
+.mobile-nav-buttons a:hover {
+	opacity: .8;
+	text-decoration: none;
+}
+
+.mobile-nav-buttons img {
+	max-width: 75px;
+}
+
+@media (min-width: 480px) {
+	.mobile-nav-buttons li {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
 .navbar {
 	margin-bottom: 0;
 	background-color: #f5f5f2;
@@ -184,11 +220,15 @@ body:not(.home) .navbar {
 }
 
 @media (max-width: 767px) {
-	body:not(.home) .navbar {
-		top: 30px;
-	}
-	#nav.affix {
-		top: 30px;
+	/*body:not(.home) .navbar {*/
+		/*top: 30px;*/
+	/*}*/
+	/*#nav.affix {*/
+		/*top: 30px;*/
+	/*}*/
+	.navbar, #nav.affix {
+		top: 0px;
+		margin-top: 0px;
 	}
 	h1 {
 		margin-top: 80px;
@@ -200,7 +240,7 @@ body:not(.home) .navbar {
 	    background-color: #f5f5f2;
 	    background-image: none;
 	    position: fixed;
-	    top: 80px;
+	    /*top: 80px;*/
 	    width: 100%;
     }
 
@@ -219,7 +259,7 @@ body:not(.home) .navbar {
     }
 
     .navbar-nav {
-	    margin-top: 0;
+	    margin-top: 135px;
 	    margin-bottom: 0;
     }
 

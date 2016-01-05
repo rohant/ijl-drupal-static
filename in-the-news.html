@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Turn off telephone number detection. -->
+	<meta name = "format-detection" content = "telephone=no">
 	<title>It's Just Lunch - In The News</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -19,16 +21,6 @@
 
 </head>
 <body class="in-the-news">
-
-<div class="container-fluid give-us-a-call">
-	<div class="container">
-		<div class="">
-			<div class="row">
-				<p>Give us a call: 1.800.489.7897</p>
-			</div>
-		</div>
-	</div>
-</div>
 
 <!-- Main Navigation -->
 <nav class="navbar navbar-default" id="nav">
@@ -71,6 +63,22 @@
 
 	</div>
 </nav>
+
+<!-- mobile buttons -->
+<div class="container-fluid mobile-nav-buttons visible-xs">
+	<div class="container">
+		<div class="row">
+			<ul class="list-unstyled list-inline text-center">
+				<li><a href="tel:1-800-489-7897"><img src="images/icon-phone.png" alt="Call">
+					<span>Call Now</span></a></li>
+				<li><a href="/cities"><img src="images/icon-find.png" alt="Find City">
+					<span>Find My City</span></a></li>
+				<li><a href="/contact"><img src="images/icon-start-dating.png" alt="Start Dating">
+					<span>Start Dating</span></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
 
 <div class="container-fluid main-hero">
 	<div class="container">
