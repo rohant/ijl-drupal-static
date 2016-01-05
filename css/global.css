@@ -879,6 +879,9 @@ cite {
 	.our-process .step-2, .our-process .step-4 {
 		padding-bottom: 20px !important;
 	}
+	#our-process-carousel {
+		margin-top: 0 !important;
+	}
 }
 
 
