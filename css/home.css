@@ -179,7 +179,8 @@
 		background-size: contain;
 	}
 	.home .our-process-container h3 {
-		font-size: 4em;
+		/*font-size: 4em;*/
+		font-size: 3.5em;
 	}
 	.ijl-difference {
 		margin-bottom: 0;
@@ -221,10 +222,12 @@
     }
     .carousel-indicators {
 	    transform: scale(0.8);
-	    bottom: 1em;
+	    bottom: 2.5em;
     }
 	.carousel-indicators li {
 		margin: 0 5px;
+		width: 20px !important;
+		height: 20px !important;
 	}
     .our-pledge {
 	    margin-bottom: 30px;
