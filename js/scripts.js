@@ -25,3 +25,13 @@ $('#nav').affix({
 		top: $('.main-hero').height()
 	}
 });
+
+// Homepage Carousel - Stop auto play on mobile
+if ($(window).width() < 768) {
+   $('.carousel').carousel({
+	    pause: true,
+	    interval: false
+	});
+}
+
+

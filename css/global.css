@@ -557,7 +557,8 @@ cite {
 
 .carousel-indicators {
 	/*bottom: 130px;*/
-	bottom: 4em;
+	/*bottom: 4em;*/
+	bottom: 2.8em;
 }
 
 .carousel-indicators li {
