@@ -26,7 +26,7 @@
 
 .home .main-hero h1 {
 	font-family: 'ralewaythin';
-	margin-top: 135px;
+	margin-top: 70px;
 }
 .home .main-hero h1 b {
 	font-family: 'ralewaymedium';
@@ -173,7 +173,13 @@
 		font-size: 28px;
 	}
 }
-@media (max-width: 767px) {
+
+@media (min-width: 1366px) {
+	.home .main-hero h1 {
+		margin-top: 135px;
+	}
+}
+@media (max-width: 768px) {
 	#our-process-carousel .carousel-inner {
 		height: 450px;
 		background-size: contain;
