@@ -10,10 +10,18 @@
 	/*background-repeat: repeat;*/
 }
 
+.mobile-nav-buttons ul {
+	margin-bottom: 4px;
+}
+
+.mobile-nav-buttons li {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .mobile-nav-buttons span, .mobile-nav-buttons a {
 	display: block;
-	font-size: 14px;
-	text-transform: uppercase;
+	font-size: 11px;
 	text-align: center;
 	color: #333;
 	cursor: pointer;
@@ -25,7 +33,7 @@
 }
 
 .mobile-nav-buttons img {
-	max-width: 75px;
+	max-width: 60px;
 }
 
 @media (min-width: 480px) {
@@ -236,8 +244,8 @@ body:not(.home) .navbar {
 	.home h1 {
 		margin-top: 0;
 	}
-    .home .navbar, .home .navbar.affix {
-	    background-color: #f5f5f2;
+    .home .navbar, .home .navbar.affix, .navbar {
+	    background-color: #2b7dc1;
 	    background-image: none;
 	    position: fixed;
 	    /*top: 80px;*/
@@ -257,6 +265,22 @@ body:not(.home) .navbar {
 	    padding-left: 0;
 	    padding-right: 0;
     }
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: #0961aa;
+	}
+
+	#navbar {
+		background-color: #f5f5f2;
+	}
+
+	.navbar-default .navbar-toggle {
+		border-color: transparent;
+	}
 
     .navbar-nav {
 	    margin-top: 135px;

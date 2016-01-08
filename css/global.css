@@ -816,7 +816,7 @@ cite {
 @media (max-width: 993px) {
     .mobile-logo {
 	    width: 120px;
-	    margin-top: 13px;
+	    margin-top: 8px;
     }
 }
 
@@ -857,7 +857,7 @@ cite {
 	}
 
 	.img-box-hero {
-		margin-top: 186px;
+		margin-top: 157px;
 	} 
 
 	body:not(.home) .main-hero {
