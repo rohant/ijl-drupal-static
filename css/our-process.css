@@ -39,41 +39,50 @@
 	text-align: left;
 	margin-bottom: 30px;
 	margin-top: 0;
+	display: table-row;
 }
 
-.step-1 h2:before, .step-2 h2:before, .step-3 h2:before, .step-4 h2:before, .step-5 h2:before, .step-6 h2:before {
+.step-1 span:before, .step-2 span:before, .step-3 span:before, 
+.step-4 span:before, .step-5 span:before, .step-6 span:before {
 	border-radius: 50%;
 	border: 2px solid #237ec2;
 	width: 50px;
 	height: 38px;
-	line-height: 50px;
+	line-height: 38px;
 	color: #237ec2;
 	padding: 10px;
 	margin-right: 15px;
+	font-family: "raleway";
+	font-size: 32px;
+	float: left;
+	display: inline-table;
 }
 
-.step-1 h2:before {
+.step-1 span:before {
 	content: '01';
-	padding-right: 15px;
 }
 
-.step-2 h2:before {
+.step-1 span:before {
+	content: '01';
+}
+
+.step-2 span:before {
 	content: '02';
 }
 
-.step-3 h2:before {
+.step-3 span:before {
 	content: '03';
 }
 
-.step-4 h2:before {
+.step-4 span:before {
 	content: '04';
 }
 
-.step-5 h2:before {
+.step-5 span:before {
 	content: '05';
 }
 
-.step-6 h2:before {
+.step-6 span:before {
 	content: '06';
 }
 
@@ -82,6 +91,7 @@
 	/*font-size: 18px;*/
 	font-size: 1.2672em;
 	line-height: 1.45;
+	margin-top: 30px;
 }
 
 .step-1 {
@@ -238,7 +248,7 @@
 	.step-2 .notch-wrap, .step-4 .notch-wrap {
 		bottom: -20px;
 	}
-	.step-2 h2, .step-4 h2 {
+	.step-2 span, .step-4 span {
 		margin-top: 50px;
 		margin-bottom: 10px;
 	}

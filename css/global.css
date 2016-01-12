@@ -816,7 +816,7 @@ cite {
 @media (max-width: 993px) {
     .mobile-logo {
 	    width: 120px;
-	    margin-top: 8px;
+	    margin-top: 7px;
     }
 }
 
@@ -932,7 +932,7 @@ cite {
 	}
 }
 
-/* Other Generic Styles 
+/* Other Generic Styles */
 .left-black-text p {
 	color: #000;
 	text-align: left;
@@ -954,3 +954,24 @@ cite {
 .margintop70 {
 	margin-top: 70px;
 }
+
+/* Pie Chart */
+#pie {
+	height: 100%;
+	width: 100%;
+}
+.result-table p span{
+    border: 1px solid #000000;
+    display: inline-block;
+    height: 21px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    width: 21px;
+}
+.result-table p:nth-child(4) span{ background-color: #66ccff; }
+.result-table p:nth-child(5) span{ background-color: #cccccc; }
+.result-table p:nth-child(6) span{ background-color: #ff9966; }
+.result-table p:nth-child(7) span{ background-color: #3366cc; }
+.result-table p:nth-child(8) span{ background-color: #cc3366; }
+.result-table p:nth-child(9) span{ background-color: #99cc99; }
+.result-table p:nth-child(9) { padding-bottom: 20px;}

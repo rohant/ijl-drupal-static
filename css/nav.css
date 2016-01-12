@@ -180,9 +180,6 @@ body:not(.home) .navbar {
 	left: 20px;
 }
 
-.mobile-logo a {
-	display: inline-block;
-}
 
 /* Circular Badge */
 .get-started-badge {

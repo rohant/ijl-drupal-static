@@ -2,8 +2,10 @@
 	display: none;
 }
 
-.home #nav.affix .mobile-logo {
-	display: inline-block !important;
+@media (min-width: 768px) {
+	.home #nav.affix .mobile-logo:nth-child(2) {
+		display: inline-block !important;
+	}
 }
 
 .home .main-hero {
@@ -86,8 +88,7 @@
 }
 
 .ijl-difference-container, .our-process-container {
-	padding-left: 2em;
-	padding-right: 2em;
+	padding: 2em;
 }
 
 .home-our-clients {
@@ -155,7 +156,7 @@
 	content: '';
 	border-left: 1px solid #555;
 	width: 10px;
-	height: 490px;
+	height: 550px;
 	color: #555;
 	position: absolute;
 	left: 0;

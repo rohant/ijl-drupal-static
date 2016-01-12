@@ -239,7 +239,7 @@
 }
 
 .share-on .social-list img {
-	width: 30px;
+	width: 42px;
 }
 
 .share-on p {
@@ -256,6 +256,9 @@
 	}
 	.blog .blog-main {
 		margin-bottom: 20px;
+	}
+	.blog-aside .recent-blog-post {
+		margin-left: 5px;
 	}
 }
 
